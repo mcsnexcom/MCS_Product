@@ -14,6 +14,7 @@ This directory contains NEXCOM MCS department products and technical documentati
 ### aROK
   -  aROK5510
   -  aROK8110
+  -  aROK8120
 
 ### nROK
   -  nROK6221
