@@ -5,9 +5,9 @@ This directory contains NEXCOM MCS department products and technical documentati
 ## Product List (by Series)
 
 ### ATC Series
-- ATC3520 (Orin Nano)
-- ATC3530 (Xavier NX)
-- ATC3540 (Orin NX)
+- ATC3520-4C (Orin Nano)
+- ATC3530-4C/4M (Xavier NX)
+- ATC3540-4C (Orin NX)
 - ATC356x (Orin Nano & Orin Nx)
 - ATC3750xxx (AGX Orin)
 
