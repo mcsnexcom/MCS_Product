@@ -2,37 +2,37 @@
 
 ## **1. Linux_for_Tegra**
 ### **a. Download driver package (BSP)**
-- wget https://developer.nvidia.com/downloads/embedded/l4t/r36_release_v4.3/release/Jetson_Linux_r36.4.3_aarch64.tbz2
+	wget https://developer.nvidia.com/downloads/embedded/l4t/r36_release_v4.3/release/Jetson_Linux_r36.4.3_aarch64.tbz2
 ### **b. Untar package**
-- tar xf <Driver_Package>
+	tar xf <Driver_Package>
 ### **c. Download driver package sources**
-- wget https://developer.nvidia.com/downloads/embedded/l4t/r36_release_v4.3/sources/public_sources.tbz2
+	wget https://developer.nvidia.com/downloads/embedded/l4t/r36_release_v4.3/sources/public_sources.tbz2
 ### **d. Untar sources**
-- tar xf <Driver_Sources> -C </install_path/Linux_for_Tegra/..>
-- cd <install_path>/Linux_for_Tegra/source
-- tar xf kernel_src.tbz2
-- tar xf kernel_oot_modules_src.tbz2
-- tar xf nvidia_kernel_display_driver_source.tbz2
+	tar xf <Driver_Sources> -C </install_path/Linux_for_Tegra/..>
+	cd <install_path>/Linux_for_Tegra/source
+	tar xf kernel_src.tbz2
+	tar xf kernel_oot_modules_src.tbz2
+	tar xf nvidia_kernel_display_driver_source.tbz2
 
 ## **2. Root filesystem**
 ### **a. Clean rootfs's file**
-- rm -rf <install_path>/Linux_for_Tegra/rootfs/*
+	rm -rf <install_path>/Linux_for_Tegra/rootfs/*
 ### **b. Download sample root filesystem**
-- wget https://developer.nvidia.com/downloads/embedded/l4t/r36_release_v4.3/release/Tegra_Linux_Sample-Root-Filesystem_r36.4.3_aarch64.tbz2
+	wget https://developer.nvidia.com/downloads/embedded/l4t/r36_release_v4.3/release/Tegra_Linux_Sample-Root-Filesystem_r36.4.3_aarch64.tbz2
 ### **c. Untar sample root filesystem**
-- tar xpf <Sample_Root_Filesystem> -C Linux_for_Tegra/rootfs/
+	tar xpf <Sample_Root_Filesystem> -C Linux_for_Tegra/rootfs/
 ### d. Apply binaries
-- cd Linux_for_Tegra/
-- sudo ./apply_binaries.sh
+	cd Linux_for_Tegra/
+	sudo ./apply_binaries.sh
 	
 ## **3. Start build kernel & modules**
 ### **a. Copy bsp patch**
-- cp -a patch/bsp_patch/* Linux_for_Tegra/
+	cp -a patch/bsp_patch/* Linux_for_Tegra/
 ### **b. Copy kernel patch**
-- cp -a patch/kernel_patch/* <install-path>/Linux_for_Tegra/<kernel_sources_directory>
-### **c. Build kernel & in-tree modules**
-(Reference : https://docs.nvidia.com/jetson/archives/r36.4.3/DeveloperGuide/SD/Kernel/KernelCustomization.html#to-manually-download-and-expand-the-kernel-sources)
-	- I. Go to the build directory
+	cp -a patch/kernel_patch/* <install-path>/Linux_for_Tegra/<kernel_sources_directory>
+### **c. Build kernel & in-tree modules** 
+> (Reference : https://docs.nvidia.com/jetson/archives/r36.4.3/DeveloperGuide/SD/Kernel/KernelCustomization.html#to-manually-download-and-expand-the-kernel-sources)
+I. Go to the build directory
 		cd <install-path>/Linux_for_Tegra/<kernel_sources_directory>
 	- II. Build
 		export CROSS_COMPILE=<toolchain-path>/bin/aarch64-buildroot-linux-gnu-
