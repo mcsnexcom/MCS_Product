@@ -7,3 +7,5 @@ There are two files in the MUT SDK, **MUT_SDK** and **FLASH_MCU**. Both of them 
 
 - MUT_SDK : Most important part of MUT SDK. In the files, you can use tools to get/set MCU and CAN data.
 - Flash_MCU : Use to update MCU firmware
+
+![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/MUT/menu_ap.png)
