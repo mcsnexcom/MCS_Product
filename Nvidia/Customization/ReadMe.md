@@ -1,8 +1,8 @@
 # **[ATC35xx Jetpack 6.2 Kernel Customization\]**
 
 ## **1 Linux_for_Tegra 
-- a. Download driver package (BSP) wget**
- - https://developer.nvidia.com/downloads/embedded/l4t/r36_release_v4.3/release/Jetson_Linux_r36.4.3_aarch64.tbz2
+- a. Download driver package (BSP)
+ - wget https://developer.nvidia.com/downloads/embedded/l4t/r36_release_v4.3/release/Jetson_Linux_r36.4.3_aarch64.tbz2
 - b. Untar package
  -tar xf \<Driver_Package\>
 - c. Download driver package sources
