@@ -1,3 +1,5 @@
+# `**Please unzip the Driver after downloading**`
+
 ## **gmsl2_stream.sh**
 This script is a diagnostic tool designed to view live video streams from currently connected and configured GMSL2 cameras. It uses the GStreamer multimedia framework to display the feed.
 
