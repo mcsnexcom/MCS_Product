@@ -2,9 +2,9 @@
 
 ## **1 Linux_for_Tegra 
 - a. Download driver package (BSP)
- - wget https://developer.nvidia.com/downloads/embedded/l4t/r36_release_v4.3/release/Jetson_Linux_r36.4.3_aarch64.tbz2
+  - wget https://developer.nvidia.com/downloads/embedded/l4t/r36_release_v4.3/release/Jetson_Linux_r36.4.3_aarch64.tbz2
 - b. Untar package
- -tar xf \<Driver_Package\>
+  -tar xf \<Driver_Package\>
 - c. Download driver package sources
   - wget https://developer.nvidia.com/downloads/embedded/l4t/r36_release_v4.3/sources/public_sources.tbz2
 d. Untar sources \* tar xf \<Driver_Sources\> -C
