@@ -1,7 +1,7 @@
 # **[ATC3520 Jetpack 5.1.2 Kernel Customization]**
 
 ## 1.untar patch.tar.gz
-	1-1. tar xpvf ATC3520_patch_v3.5.0.tar.gz
+	tar xpvf ATC3520_patch_v3.5.0.tar.gz
 	
 ## 2.Copy patch/bsp_patch/* to <BSP_DIR>
     sudo cp -a patch/bsp_patch/* $HOME/<BSP_DIR>
@@ -15,28 +15,28 @@
 > (Reference : https://docs.nvidia.com/jetson/archives/r35.4.1/DeveloperGuide/text/SD/Kernel/KernelCustomization.html#manually-downloading-and-expanding-kernel-sources)
 
 Build kernel example :
-1. export variables : 
-   - export WORKDIR="$(pwd)"
-   - export DEFCONFIG="atc3520_defconfig"
-   - export TOOLCHAIN_PREFIX="${WORKDIR}/toolchain/bin/aarch64-buildroot-linux-gnu-"
-   - export JETSON_AGX_ORIN_KERNEL_SOURCES="${WORKDIR}/Linux_for_Tegra/sources"
-   - export TEGRA_KERNEL_OUT="$JETSON_AGX_ORIN_KERNEL_SOURCES/build"
-   - export KERNEL_MODULES_OUT="$JETSON_AGX_ORIN_KERNEL_SOURCES/modules"
-2. Run config :
-   - sudo make -C sources/kernel/kernel-5.10 ARCH=arm64 O=$TEGRA_KERNEL_OUT LOCALVERSION=-tegra CROSS_COMPILE=${TOOLCHAIN_PREFIX} ${DEFCONFIG}
-3. Make image、dtbs、modules
-   - sudo make -C sources/kernel/kernel-5.10 ARCH=arm64 O=$TEGRA_KERNEL_OUT LOCALVERSION=-tegra CROSS_COMPILE=${TOOLCHAIN_PREFIX} -j$(nproc) Image
-   - sudo make -C sources/kernel/kernel-5.10 ARCH=arm64 O=$TEGRA_KERNEL_OUT LOCALVERSION=-tegra CROSS_COMPILE=${TOOLCHAIN_PREFIX} -j$(nproc) dtbs
-   - sudo make -C sources/kernel/kernel-5.10 ARCH=arm64 O=$TEGRA_KERNEL_OUT LOCALVERSION=-tegra CROSS_COMPILE=${TOOLCHAIN_PREFIX} -j$(nproc) modules
-4. Module install
-   - sudo make -C sources/kernel/kernel-5.10 ARCH=arm64 O=$TEGRA_KERNEL_OUT LOCALVERSION=-tegra INSTALL_MOD_PATH=$KERNEL_MODULES_OUT modules_install
-7. Copy files
-   - sudo cp -rfv $JETSON_AGX_ORIN_KERNEL_SOURCES/build/arch/arm64/boot/Image kernel/
-   - sudo cp -rfv $JETSON_AGX_ORIN_KERNEL_SOURCES/build/arch/arm64/boot/dts/nvidia/* kernel/dtb/
-   - sudo cp -arfv $JETSON_AGX_ORIN_KERNEL_SOURCES/modules/lib rootfs/usr/
+### 1. export variables : 
+	export WORKDIR="$(pwd)"
+	export DEFCONFIG="atc3520_defconfig"
+	export TOOLCHAIN_PREFIX="${WORKDIR}/toolchain/bin/aarch64-buildroot-linux-gnu-"
+	export JETSON_AGX_ORIN_KERNEL_SOURCES="${WORKDIR}/Linux_for_Tegra/sources"
+	export TEGRA_KERNEL_OUT="$JETSON_AGX_ORIN_KERNEL_SOURCES/build"
+	export KERNEL_MODULES_OUT="$JETSON_AGX_ORIN_KERNEL_SOURCES/modules"
+### 2. Run config :
+	sudo make -C sources/kernel/kernel-5.10 ARCH=arm64 O=$TEGRA_KERNEL_OUT LOCALVERSION=-tegra CROSS_COMPILE=${TOOLCHAIN_PREFIX} ${DEFCONFIG}
+### 3. Make image、dtbs、modules
+	sudo make -C sources/kernel/kernel-5.10 ARCH=arm64 O=$TEGRA_KERNEL_OUT LOCALVERSION=-tegra CROSS_COMPILE=${TOOLCHAIN_PREFIX} -j$(nproc) Image
+	sudo make -C sources/kernel/kernel-5.10 ARCH=arm64 O=$TEGRA_KERNEL_OUT LOCALVERSION=-tegra CROSS_COMPILE=${TOOLCHAIN_PREFIX} -j$(nproc) dtbs
+	sudo make -C sources/kernel/kernel-5.10 ARCH=arm64 O=$TEGRA_KERNEL_OUT LOCALVERSION=-tegra CROSS_COMPILE=${TOOLCHAIN_PREFIX} -j$(nproc) modules
+### 4. Module install
+	sudo make -C sources/kernel/kernel-5.10 ARCH=arm64 O=$TEGRA_KERNEL_OUT LOCALVERSION=-tegra INSTALL_MOD_PATH=$KERNEL_MODULES_OUT modules_install
+### 5. Copy files
+	sudo cp -rfv $JETSON_AGX_ORIN_KERNEL_SOURCES/build/arch/arm64/boot/Image kernel/
+	sudo cp -rfv $JETSON_AGX_ORIN_KERNEL_SOURCES/build/arch/arm64/boot/dts/nvidia/* kernel/dtb/
+	sudo cp -arfv $JETSON_AGX_ORIN_KERNEL_SOURCES/modules/lib rootfs/usr/
 	
-5.Copy patch/module_patch/modules/* to <top>/Linux_for_Tegra/rootfs/
-	Notice:
+## 5.Copy patch/module_patch/modules/* to <top>/Linux_for_Tegra/rootfs/
+Notice:
 		* If ignore this step, Orin-NX may shows a black screen.
 		* module_patch also contains customized .ko files (e.g. GobiSerial.ko、qmi_wwan.ko...)
 
@@ -46,6 +46,6 @@ Build kernel example :
 		• extra/opensrc-disp/nvidia-modeset.ko: extra/opensrc-disp/nvidia.ko
 		• extra/opensrc-disp/nvidia-drm.ko: extra/opensrc-disp/nvidia-modeset.ko extra/opensrc-disp/nvidia.ko
 		• extra/opensrc-disp/nvidia.ko:
-	* (Reference : https://docs.nvidia.com/jetson/archives/r35.4.1/DeveloperGuide/text/SD/Kernel/KernelCustomization.html#to-build-display-kernel-modules)
+> (Reference : https://docs.nvidia.com/jetson/archives/r35.4.1/DeveloperGuide/text/SD/Kernel/KernelCustomization.html#to-build-display-kernel-modules)
 	
 6.Run the script "package_atc3520.sh" in bsp_patch 
