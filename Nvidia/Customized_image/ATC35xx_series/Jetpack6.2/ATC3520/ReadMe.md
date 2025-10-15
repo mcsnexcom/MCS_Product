@@ -1,4 +1,4 @@
-# **[ATC35xx Jetpack 6.2 Kernel Customization]**
+# **[ATC3520/ATC3540Jetpack 6.2 Kernel Customization]**
 
 ## **1. Linux_for_Tegra**
 ### **a. Download driver package (BSP)**
