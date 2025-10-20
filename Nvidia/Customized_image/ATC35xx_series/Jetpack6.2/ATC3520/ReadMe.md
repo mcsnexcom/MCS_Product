@@ -71,4 +71,4 @@
 ### **c. Install**
 		cp kernel-devicetree/generic-dts/dtbs/* <install-path>/Linux_for_Tegra/kernel/dtb/
 
-## **5. Run the script "package_atc3540.sh" in Linux_for_Tegra**
+## **5. Run the script "package_atc3520.sh" in Linux_for_Tegra**
