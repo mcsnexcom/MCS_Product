@@ -6,4 +6,4 @@
   - export LD_LIBRARY_PATH=LIB_x86_64
 ### Execute MUT_SDK
   - ./bin/mcu_menu_ap
-[!image](https://github.com/mcsnexcom/MCS_Product/edit/main/Nvidia/MUT_IO_SDK/v2.2.58/MUT_SDK/Sample media/MUT_SDK_main-page.png)
+[!image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/MUT_IO_SDK/v2.2.58/MUT_SDK/Sample%20media/MUT_SDK_main-page.png)
