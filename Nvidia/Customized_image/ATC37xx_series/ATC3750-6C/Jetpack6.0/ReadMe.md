@@ -1,4 +1,4 @@
-# **[ATC3750-6C Kernel Customization] - Jetpack 6.3(GA2)**
+# **[ATC3750-6C Kernel Customization] - Jetpack 6.0(GA2)**
 > Reference : https://docs.nvidia.com/jetson/archives/r36.3/DeveloperGuide/SD/Kernel/KernelCustomization.html#to-manually-download-and-expand-the-kernel-sources
 
 ## 1. Locate and download the Jetson Linux source files for your release.
