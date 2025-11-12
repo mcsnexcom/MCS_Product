@@ -8,8 +8,41 @@ This directory contains NEXCOM MCS department products and technical documentati
 - See the Nvidia folder
 
 ## VTC Series
-- Please supplement with actual models
-
+### ARM Compact
+  - VTC210
+### Atom® Compact
+  - VTC1010
+  - VTC1020
+  - VTC1020-PA
+  - VTC1021-BK/C2K
+  - VTC1030
+  - VTC1031/1031-C2
+  - VTC1910-S
+  - VTC1911-IPK
+  - VTC1920
+  - VTC1921-IP/C2IP
+### Atom® Performance
+  - VTC6210-BK
+  - VTC6210-VR4
+  - VTC6220-BK
+  - VTC6221
+  - VTC6222
+  - VTC6231
+  - VTC6231-IP
+  - VTC6232
+  - VTC6232-C4SIP
+### Core™ Power Efficient
+  - VTC7260-x
+  - VTC7260-xC4
+  - VTC7280-7/5
+  - VTC7280-7C5/5C5
+### Core™ Performance
+  - VTC7250-7C8
+  - VTC7251
+  - VTC7251-7C4
+  - VTC7252-7C4IP
+  - VTC7270
+  - VTC7270-C4/C8
 ## aROK / nROK / vROK / VMC Series
 ### aROK
   -  aROK5510
