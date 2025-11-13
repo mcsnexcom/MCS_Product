@@ -4,6 +4,9 @@ This directory contains NEXCOM MCS department products and technical documentati
 
 ## Product List (by Series)
 
+### VTC Series
+- VTC210
+
 ### VMC Series
 - VMC320
 - VMC220
