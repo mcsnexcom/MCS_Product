@@ -8,8 +8,7 @@ This directory contains NEXCOM MCS department products and technical documentati
 - See the Nvidia folder
 
 ## VTC Series
-### ARM Compact
-  - VTC210
+
 ### Atom® Compact
   - VTC1010
   - VTC1020
