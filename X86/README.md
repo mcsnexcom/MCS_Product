@@ -10,7 +10,7 @@ This directory contains NEXCOM MCS department products and technical documentati
 ## VTC Series
 
 ### Atom® Compact
-  - VTC1010
+  - [VTC1010](https://www.nexcom.com/Products/mobile-computing-solutions/in-vehicle-pc/vehicle-atom-compact/in-vehicle-computer-vtc-1010)
   - VTC1020
   - VTC1020-PA
   - VTC1021-BK/C2K
