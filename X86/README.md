@@ -73,7 +73,7 @@ This directory contains NEXCOM MCS department products and technical documentati
   -  [nROK 7280-7WIC5IP/-5WIC5IP](https://www.nexcom.com/Products/mobile-computing-solutions/railway-computer/railway-core-performance/nrok-7280-7wic5ip--5wic5ip)
 
 ### vROK
-  - vROK3030
+  - [vROK3030](https://www.nexcom.com/Products/mobile-computing-solutions/railway-panel-computer/vrok-10-inch/vrok-3030-a-b)
 
 ### VMC
   - [VMC110/111](https://www.nexcom.com/Products/mobile-computing-solutions/vehicle-mount-computer/vmc-7-inch/vehicle-mount-computer-vmc-110-111)
