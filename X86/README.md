@@ -11,25 +11,26 @@ This directory contains NEXCOM MCS department products and technical documentati
 
 ### Atom® Compact
   - [VTC1010](https://www.nexcom.com/Products/mobile-computing-solutions/in-vehicle-pc/vehicle-atom-compact/in-vehicle-computer-vtc-1010)
-  - VTC1020
-  - VTC1020-PA
-  - VTC1021-BK/C2K
-  - VTC1030
-  - VTC1031/1031-C2
-  - VTC1910-S
-  - VTC1911-IPK
-  - VTC1920
-  - VTC1921-IP/C2IP
+  - [VTC1011](https://www.nexcom.com/Products/mobile-computing-solutions/in-vehicle-pc/vehicle-atom-compact/in-vehicle-computer-vtc-1011)
+  - [VTC1020](https://www.nexcom.com/Products/mobile-computing-solutions/in-vehicle-pc/vehicle-atom-compact/in-vehicle-computer-vtc-1020)
+  - [VTC1020-PA](https://www.nexcom.com/Products/mobile-computing-solutions/in-vehicle-pc/vehicle-atom-compact/in-vehicle-computer-vtc-1020-pa)
+  - [VTC1021-BK/C2K](https://www.nexcom.com/Products/mobile-computing-solutions/in-vehicle-pc/vehicle-atom-compact/in-vehicle-computer-vtc-1021)
+  - [VTC1030](https://www.nexcom.com/Products/mobile-computing-solutions/in-vehicle-pc/vehicle-atom-compact/in-vehicle-computer-vtc-1030)
+  - [VTC1031/1031-C2](https://www.nexcom.com/Products/mobile-computing-solutions/in-vehicle-pc/vehicle-atom-compact/in-vehicle-computer-vtc-1031-1031-c2)
+  - [VTC1910-S](https://www.nexcom.com/Products/mobile-computing-solutions/in-vehicle-pc/vehicle-atom-compact/in-vehicle-computer-vtc-1910)
+  - [VTC1911-IPK](https://www.nexcom.com/Products/mobile-computing-solutions/in-vehicle-pc/vehicle-atom-compact/in-vehicle-computer-vtc-1911-ipk)
+  - [VTC1920](https://www.nexcom.com/Products/mobile-computing-solutions/in-vehicle-pc/vehicle-atom-compact/vtc-1920)
+  - [VTC1921-IP/C2IP](https://www.nexcom.com/Products/mobile-computing-solutions/in-vehicle-pc/vehicle-atom-compact/vtc-1921-ip-vtc1921-c2ip)
 ### Atom® Performance
-  - VTC6210-BK
-  - VTC6210-VR4
-  - VTC6220-BK
-  - VTC6221
-  - VTC6222
-  - VTC6231
-  - VTC6231-IP
-  - VTC6232
-  - VTC6232-C4SIP
+  - [VTC6210-BK](https://www.nexcom.com/Products/mobile-computing-solutions/in-vehicle-pc/atom-performance/in-vehicle-computer-vtc-6210-bk)
+  - [VTC6210-VR4](https://www.nexcom.com/Products/mobile-computing-solutions/in-vehicle-pc/atom-performance/in-vehicle-computer-vtc-6210-vr4)
+  - [VTC6220-BK](https://www.nexcom.com/Products/mobile-computing-solutions/in-vehicle-pc/atom-performance/in-vehicle-computer-vtc-6220-bk)
+  - [VTC6221](https://www.nexcom.com/Products/mobile-computing-solutions/in-vehicle-pc/atom-performance/in-vehicle-computer-vtc-6221)
+  - [VTC6222](https://www.nexcom.com/Products/mobile-computing-solutions/in-vehicle-pc/atom-performance/in-vehicle-computer-vtc-6222)
+  - [VTC6231](https://www.nexcom.com/Products/mobile-computing-solutions/in-vehicle-pc/atom-performance/nexcom-vtc-6231)
+  - [VTC6231-IP](https://www.nexcom.com/Products/mobile-computing-solutions/in-vehicle-pc/atom-performance/vtc-6231-ip)
+  - [VTC6232](https://www.nexcom.com/Products/mobile-computing-solutions/in-vehicle-pc/atom-performance/vtc-6232)
+  - [VTC6232-C4SIP](https://www.nexcom.com/Products/mobile-computing-solutions/in-vehicle-pc/atom-performance/vtc-6232-c4sip)
 ### Core™ Power Efficient
   - VTC7260-x
   - VTC7260-xC4
