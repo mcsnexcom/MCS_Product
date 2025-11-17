@@ -77,8 +77,6 @@ This directory contains NEXCOM MCS department products and technical documentati
 
 ### VMC
   - [VMC110/111](https://www.nexcom.com/Products/mobile-computing-solutions/vehicle-mount-computer/vmc-7-inch/vehicle-mount-computer-vmc-110-111)
-  - [VMC220](https://www.nexcom.com/Products/mobile-computing-solutions/vehicle-mount-computer/vmc-8-inch/vehicle-mount-computer-vmc-220)
-  - [VMC320](https://www.nexcom.com/Products/mobile-computing-solutions/vehicle-mount-computer/vmc-10-inch/vmc-320-vehicle-mount-computer)
   - [VMC1100](https://www.nexcom.com/Products/mobile-computing-solutions/vehicle-mount-computer/vmc-7-inch/vehicle-mount-computer-vmc1100)
   - [VMC1110](https://www.nexcom.com/Products/mobile-computing-solutions/vehicle-mount-computer/vmc-7-inch/vehicle-mount-computer-vmc1100)
   - [VMC2020](https://www.nexcom.com/Products/mobile-computing-solutions/vehicle-mount-computer/vmc-8-inch/vehicle-mount-computer-vmc-2020)
