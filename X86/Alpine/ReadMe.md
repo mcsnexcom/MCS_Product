@@ -35,7 +35,7 @@ Enter letters or numbers to select the corresponding option.
   - Select the config file for your desired flash model name.
   - $ vim "model name"
   - Change the file path to the corrected MCU file name, and then save and exit
-Like this
+> Like this
 
 ![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/MUT_IO_SDK/v2.2.58/MUT_SDK/Sample%20media/MCU%20file.png)
 
