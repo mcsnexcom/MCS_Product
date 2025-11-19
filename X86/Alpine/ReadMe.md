@@ -37,7 +37,7 @@ Enter letters or numbers to select the corresponding option.
   - Change the file path to the corrected MCU file name, and then save and exit
 Like this
 
-[!image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/MUT_IO_SDK/v2.2.58/MUT_SDK/Sample%20media/MCU%20file.png)
+![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/MUT_IO_SDK/v2.2.58/MUT_SDK/Sample%20media/MCU%20file.png)
 
 ### execute flash
   - cd ..
