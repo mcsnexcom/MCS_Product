@@ -94,18 +94,3 @@
 | 2023-05-24 | 5.1.1 | AGX Orin 32G/64G | 1.1.0 | 5.10.104-tegra | 1\. Disabled Suspend function. |  |
 | 2023-05-10 | 5.1.1 | AGX Orin 32G/64G | 1.0.0 | 5.10.104-tegra | 1\. Support AGX Orin 32/64 GB ram SoM. 2\. Update xusb firmware for UART receiving data bug. |  |
 
-## **AIEdge-X80**
-
-| Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | Other |
-| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| 2025-09-12 | 6.2 | Orin Nano 4G/8G | 4.2.3.1 | 5.15.148-tegra | 1\. Remove NEXCOM from UEFI 2\. Add power mode 25W |  |
-| 2025-08-01 | 6.2 | Orin NX 8G/16G | 4.2.3.0 | 5.15.148-tegra | 1\. Support modules:ATC3520 ATC3560 ATC3561 ATC3562 ATC3563 AIEdge-X80. 2\. Change module name: A. ATC3540 \-\> ATC3560 B. ATC3521, ATC3541 \-\> ATC3561 C. ATC3522, ATC3542 \-\> ATC3562 3\. Need to update MCU version to apply module name changing: A. ATC3561: AT35610R01.bin B. ATC3562: AT35620R01.bin 4\. Orin Nano power mode remove 25w option. 5\. Add different fan control configs for different modules. 6\. Add functionality to configure the POE board via I2C. 7\. If system hangs for over 30 seconds during shutdown, MCU will force a power-off. 8\. Orin-NX 16G: If fails to enter OS, MCU will force a reboot (WDT timeout: 180s). 9\. Add support for OS flashing via USB drive (only for Image versions \> 4.2.3.0). |  |
-| 2025-06-27 | 6.2 | Orin NX 8G/16G | 4.2.2.0 | 5.15.148-tegra | 1\. Support ATC3520, ATC3521, ATC3540, ATC3541 and AIEdge-X80. 2\. Add module ID check in bootloader. 3\. Fix "tegrastats" displaying fan rpm as 0\. 4\. Update MUT version to v2.2.53. 5\. Add MCU & Generic Update Tool(GUT). |  |
-| 2025-05-30 | 6.2 | Orin NX 8G/16G | 4.2.1.0 | 5.15.148-tegra | 1\. Support ATC3520, ATC3521. 2\. Remove recovery boot, unbootable lead to direct boot. 3\. Fix sometimes black screen while running nv-oem-config-firstboot issue. |  |
-| 2025-02-27 | 6.2 | Orin NX 8G/16G | 4.2.0.0 | 5.15.148-tegra | 1\. Support ATC3540, ATC3541 and AIEdge-X80. |  |
-| 2024-12-13 | 5.1.2 | Orin NX 8G/16G | 3.1.5 | 5.10.120-tegra | 1\. Update MUT version to v2.2.41 . 2\. Update realtek driver to fix iperf issue . |  |
-| 2024-08-19 | 5.1.2 | Orin NX 8G/16G | 3.1.4 | 5.10.120-tegra | Fixed network interface. |  |
-| 2024-06-21 | 5.1.2 | Orin NX 8G/16G | 3.1.3 | 5.10.120-tegra | Fix BT transfer problem. |  |
-| 2024-06-04 | 5.1.2 | Orin NX 8G/16G | 3.1.2 | 5.10.120-tegra | Fixed boot up problem. |  |
-| 2024-06-03 | 5.1.2 | Orin NX 8G/16G | 3.1.1 | 5.10.120-tegra | 1\. Update MUT version to v2.2.36. 2\. Set Ubuntu 'Power Saving \-\> Blank Screen' option to 'Never' as default. 3\. Disable ubuntu 'logout-prompt' to fixed ignition off can't power-off issue. 4\. NVIDIA update: PCN\_211361. |  |
-
