@@ -1,7 +1,6 @@
 # **ATC Series Release Notes**
 
-## **ATC3520**
-## **ATC3660-IP7-NA4C**
+## **ATC3520 / ATC3560-IP7-NA4C / ATC3561-NA4C / ATC3562-IP7-NA4M / ATC3563-NA8C/NA8CR**
 
 | Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | Other |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
