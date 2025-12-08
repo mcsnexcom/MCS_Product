@@ -1,10 +1,6 @@
 # **ATC Series Release Notes**
 
-## **ATC3520 **
-## **ATC3560-IP7-NA4C  **
-## **ATC3561-NA4C**  
-## **ATC3562-IP7-NA4M**  
-## **ATC3563-NA8C/NA8CR**
+## **ATC3520 / ATC3560-IP7-NA4C / ATC3561-NA4C / ATC3562-IP7-NA4M / ATC3563-NA8C/NA8CR**
 
 | Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | Other |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
@@ -43,7 +39,7 @@
 | 2022-01-26 | 4.6 | Xavier NX 8G/16G | 1.1.0 | 4.9.253-tegra | 1\. first formal version. |  |
 |  | TX2-NX | 1.1.0 |  |  |  |  |
 
-## **ATC3540 / ATC3560 / ATC3562**
+## **ATC3540 / ATC3560-IP7-NX4C/NX4CF / ATC3560-IP7-NXAI4CR / ATC3561-NX4CF / ATC3562-IP7-NX4MF / ATC3563-NX8C/NXA8CR**
 
 | Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | Other |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
@@ -66,7 +62,7 @@
 | 2023-10-13 | 5.1.1 | Orin NX 8G/16G | 1.8.0 | 5.10.104-tegra | 1\. Fix i210 can't link up after reboot. 2\. Fix X710 can't link up after reboot. 3\. Set fan profile to "Quiet" by default. 4\. Add "Cool" and "Performance" fan profile. 5\. Support NVMe Gen4. 6\. Support rtl8822ce. 7\. Add watchdog service. |  |
 | 2023-09-08 | 5.1.1 | Orin NX 8G/16G | 1.7.0 | 5.10.104-tegra | 1\. Support ATC3540 8G/16G. |  |
 
-## **ATC3750-6C**
+## **ATC3750-6C series**
 
 | Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | Other |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
@@ -83,7 +79,7 @@
 | 2023-04-14 | 5.0.2 | AGX Orin 32G/64G | 2.0.0 | 5.10.104-tegra | 1\. Update to Jetpack 5.0.2. 2\. Update xusb firmware for UART receiving data bug. |  |
 | 2023-01-09 | 5.0.2 | AGX Orin 32G | 1.0.0 | 5.10.104-tegra | 1\. Support AGX Orin 32GB ram SoM. |  |
 
-## **ATC3750-IP7-8M**
+## **ATC3750-IP7-8M series**
 
 | Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | Other |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
