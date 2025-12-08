@@ -39,7 +39,7 @@
 | 2022-01-26 | 4.6 | Xavier NX 8G/16G | 1.1.0 | 4.9.253-tegra | 1\. first formal version. |  |
 |  | TX2-NX | 1.1.0 |  |  |  |  |
 
-## **ATC3560**
+## **ATC3540 / ATC3560 / ATC3562**
 
 | Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | Other |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
