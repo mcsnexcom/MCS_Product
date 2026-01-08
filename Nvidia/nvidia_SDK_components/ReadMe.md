@@ -100,4 +100,4 @@ DO NOT POWER OFF the device or interrupt the process during the update\! Any une
     cat /etc/image\_version
 
 ### Confirm it matches the version of the \<atc\_rel\> package you used.
-    **Reference:** [NVIDIA OTA Update Documentation](https://www.google.com/search?q=https://docs.nvidia.com/jetson/archives/r36.4.3/DeveloperGuide/SD/SoftwarePackagesAndTheUpdateMechanism.html%23steps-performed-on-the-jetson-device)
+> Reference: [NVIDIA OTA Update Documentation](https://www.google.com/search?q=https://docs.nvidia.com/jetson/archives/r36.4.3/DeveloperGuide/SD/SoftwarePackagesAndTheUpdateMechanism.html%23steps-performed-on-the-jetson-device)
