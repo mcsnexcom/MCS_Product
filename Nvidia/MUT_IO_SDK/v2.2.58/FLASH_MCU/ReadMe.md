@@ -7,12 +7,12 @@
 ### Edit the flash script configuration
   - cd configs
   - Edit the config of device using
-    **Example :**
-    Sample device : ATC3540
-    $ vim configs/ATC3540
-    find "FILE_PATH:FW/MCU/ATC3540/AT353R11.BIN"
-    modify "AT353R11.BIN" to new file name "AT353R12.BIN"
-    save and exit
+  - **Example :**
+    - Sample device : ATC3540
+    - $ vim configs/ATC3540
+    - find "FILE_PATH:FW/MCU/ATC3540/AT353R11.BIN"
+    - modify "AT353R11.BIN" to new file name "AT353R12.BIN"
+    - save and exit
 ### execute flash
   - cd ..
   - ./bin/mcu_upd
