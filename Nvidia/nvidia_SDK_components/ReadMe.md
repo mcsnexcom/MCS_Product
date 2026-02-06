@@ -17,8 +17,8 @@ This script functions as an installer for the NVIDIA JetPack SDK on a compatible
 # ATC Series OTA Update
 
 \[\!IMPORTANT\]  
-Updates are only provided within the same JetPack version. Nexcom OS currently does NOT support cross-version JetPack upgrades (e.g., upgrading from JetPack 6.1 to JetPack 6.2).
-NOTED: The image file for OTA updates can only be used with Jetpack 6.1 and later.
+Updates are only provided within the same JetPack version. Nexcom OS currently does NOT support cross-version JetPack upgrades (e.g., upgrading from JetPack 5.1.2 to JetPack 6.x).
+NOTED: The image file for OTA updates can only be used with Jetpack 6.0 and later.
 
 ## OTA Support Status Table
 
