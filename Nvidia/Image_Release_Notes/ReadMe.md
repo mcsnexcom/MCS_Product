@@ -33,7 +33,7 @@
 | 2022-04-28 | 4.6 | Xavier NX 8G/16G | 1.1.4 | 4.9.253-tegra | 1. updated MUT 2.1.7. <br>2. supported Thales PLS62/MV31 modem. <br>3. supported Sierra EM7455 modem. <br>4. supported Intel 8265 WIFI. <br>5. supported Sparklan WPEQ-261ACNI(BT)/ WPEQ-262ACNI(BT) WIFI. 6. fixed cpu/gpu/cv loading issue. |  |
 |  | | TX2-NX | 1.2.1 |  |  |  |  
 | 2022-03-23 | 4.6 | Xavier NX 8G/16G | 1.1.3 | 4.9.253-tegra | 1. updated MUT 2.1.6. <br>2. supported Quectel EM05/EM06/RM500Q/RM502Q modem. <br>3. supported Huawei ME909s-120/ME909s-821 modem. <br>4. supported Sierra EM7430 modem. <br>5. supported u-blox TOBY-L2 modem. <br>6. fixed fan speed issue. |  |
-|  | TX2-NX | 1.2.0 |  |  |  |  
+|  | | TX2-NX | 1.2.0 |  |  |  |  
 | 2022-03-03 | 4.6 | Xavier NX 8G/16G | 1.1.2 | 4.9.253-tegra | 1. updated MUT 2.1.5. <br>2. updated CAN bus script. <br>3. supported Sparklan WPEQ-256ACNI WIFI. |  |
 | 2022-02-18 | 4.6 | Xavier NX 8G/16G | 1.1.1 | 4.9.253-tegra | 1. supported Telit LM960A18 modem. <br>2. supported Sparklan WPEQ-261ACNI(BT)/ WPEQ-262ACNI(BT) WIFI. <br>3. fixed cpu/gpu/cv loading issue. |  |
 | 2022-01-26 | 4.6 | Xavier NX 8G/16G | 1.1.0 | 4.9.253-tegra | 1. first formal version. |  |
