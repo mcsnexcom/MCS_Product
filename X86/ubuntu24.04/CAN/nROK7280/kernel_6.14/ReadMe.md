@@ -1,9 +1,6 @@
 # How to use VTC7280 or nROK7280 socket CAN under Linux system
 
 ## Steps to use VTC7280 or nROK7280 Linux SPI to CAN
-> Driver download path (Ubuntu 24.04 / Kernel:6.14)
-    ftp://nexcommcs_image:nexcommcs#image@ftp.nexcom.com.tw/SDK/CAN/Linux/SPItoCAN_kernel_6.14.tar.gz
-
 1. OS select 
     a. Enter bios
     b. change to boot page
