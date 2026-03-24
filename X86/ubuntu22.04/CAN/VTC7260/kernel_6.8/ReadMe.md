@@ -1,14 +1,14 @@
-# How to use VTC1031 socket CAN under Linux system
+# How to use VTC7260 socket CAN under Linux system
 
-## Steps of VTC1031 Linux SPI to CAN
+## Steps of VTC7260 Linux SPI to CAN 
 1. OS select 
     a. Enter bios
     b. change to boot page
     c. OS selection select "Intel Linux"
 2. Open terminal and enter root mode and unzip file.
     $ sudo su
-    $ tar xvf SPItoCAN_v1.3.tar.gz 
-3. Enter folder SPItoCAN_v1.3 then Execute #apt-get update to updatepackages.
+    $ tar xvf SPItoCAN_v1.2.tar.gz 
+3. Enter folder SPItoCAN_v1.2 then Execute #apt-get update to updatepackages.
     $ apt-get update
 4. Install packages
     $ apt -y install make libncurses5-dev gcc libelf-dev dwarves zstd can-utils
@@ -17,7 +17,7 @@
 6. Load mcp251xfd_mcs driver.
     $ rmmod spidev
     $ modprobe can_dev
-    $ insmod mcp251xfd_mcs.ko can0gpio=795
+    $ insmod mcp251xfd_mcs.ko can0gpio=791 (for Kernel 6.8)
 7. Check net connector.
     $ ls /sys/class/net/ -al
 8. Set socket can type and bitrate.

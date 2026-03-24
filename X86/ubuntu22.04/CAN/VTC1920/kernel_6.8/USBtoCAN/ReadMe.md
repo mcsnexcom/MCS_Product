@@ -1,8 +1,6 @@
 # How to use VTC1920 USB to CAN under Linux system
 
 ## Test step of VTC1920 Linux USB to CAN
-> Driver download path (Ubuntu 22.04 / Kernel:6.8): 
-    ftp://nexcommcs_image:nexcommcsimage@ftp.nexcom.com.tw/Driver/VTC7260/SPItoCAN_kernel_6.8.tar.gz
 1. OS select 
     a. Enter bios
     b. change to boot page

@@ -1,14 +1,17 @@
-# How to use VTC1031 socket CAN under Linux system
+# How to use VTC7280 or nROK7280 socket CAN under Linux system
 
-## Steps of VTC1031 Linux SPI to CAN
+## Steps to use VTC7280 or nROK7280 Linux SPI to CAN
+> Driver download path (Ubuntu 24.04 / Kernel:6.14)
+    ftp://nexcommcs_image:nexcommcs#image@ftp.nexcom.com.tw/SDK/CAN/Linux/SPItoCAN_kernel_6.14.tar.gz
+
 1. OS select 
     a. Enter bios
     b. change to boot page
     c. OS selection select "Intel Linux"
 2. Open terminal and enter root mode and unzip file.
     $ sudo su
-    $ tar xvf SPItoCAN_v1.3.tar.gz 
-3. Enter folder SPItoCAN_v1.3 then Execute #apt-get update to updatepackages.
+    $ tar xvf SPItoCAN_kernel_6.14.tar.gz
+3.  Enter folder SPItoCAN/mcp251xfd_MCS then Execute #apt update to update packages.
     $ apt-get update
 4. Install packages
     $ apt -y install make libncurses5-dev gcc libelf-dev dwarves zstd can-utils
@@ -17,7 +20,7 @@
 6. Load mcp251xfd_mcs driver.
     $ rmmod spidev
     $ modprobe can_dev
-    $ insmod mcp251xfd_mcs.ko can0gpio=795
+    $ insmod mcp251xfd_mcs.ko can0gpio=641 can1gpio=642
 7. Check net connector.
     $ ls /sys/class/net/ -al
 8. Set socket can type and bitrate.

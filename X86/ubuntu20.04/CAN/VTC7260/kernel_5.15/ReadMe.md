@@ -1,6 +1,6 @@
-# How to use VTC1031 socket CAN under Linux system
+# How to use VTC7260 socket CAN under Linux system
 
-## Steps of VTC1031 Linux SPI to CAN
+## Steps of VTC7260 Linux SPI to CAN 
 1. OS select 
     a. Enter bios
     b. change to boot page
@@ -17,7 +17,8 @@
 6. Load mcp251xfd_mcs driver.
     $ rmmod spidev
     $ modprobe can_dev
-    $ insmod mcp251xfd_mcs.ko can0gpio=795
+    $ insmod mcp251xfd_mcs.ko can0gpio=943 (for Kernel 5.15)
+    
 7. Check net connector.
     $ ls /sys/class/net/ -al
 8. Set socket can type and bitrate.

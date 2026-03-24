@@ -1,11 +1,6 @@
 # How to use VTC6231 socket CAN under Linux system
 
 ## Steps of VTC6231 Linux SPI to CAN
-> Driver download path (OS: Ubuntu 22.04 / Kernel :6.5.0.45) :
-    ftp://nexcommcs_image:nexcommcsimage@ftp.nexcom.com.tw/Driver/VTC6231/CAN/Ubuntu22.04/SPItoCAN_v1.3.tar.gz
-> Driver download path (OS: Ubuntu 22.04 / Kernel :6.8.0.47) :
-    ftp://nexcommcs_image:nexcommcsimage@ftp.nexcom.com.tw/Driver/VTC6231/CAN/Ubuntu22.04-Kernel 6.8/SPItoCAN_kernel
-
 1. OS select 
     a. Enter bios
     b. change to boot page
