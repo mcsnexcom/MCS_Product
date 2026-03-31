@@ -7,7 +7,7 @@
 ### Execute MUT_SDK
   - ./bin/mcu_menu_ap
 
-![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/MUT_IO_SDK/image/MUT_SDK_main_page.png)
+![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/MUT_IO_SDK/image/MUT_SDK_main-page.png)
 
 ##Example:
 Enter letters or numbers to select the corresponding option.
