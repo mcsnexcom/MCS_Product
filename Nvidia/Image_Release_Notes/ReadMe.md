@@ -66,7 +66,6 @@
 
 | Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | Other |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| 2026-02-13 | 6.1 | AGX Orin 32G/64G | 4.1.11.0 | 5.15.148-tegra | 1. Updated MUT SDK to v2.2.72. <br>2. Merge the flashing process into a single image for all AGX Orin SoMs system. <br>3. Supported WNFQ-268AXBT(Wi-Fi/BT) module. <br>4. Disabled USB Link Power Management. <br>5. Jetson Orin Field Bulletin – Critical QSPI Software Update. | 1. After flashing the OS, the system may occasionally encounter a black screen issue during the oem-config process, requiring a power-off and reboot the system.(NVIDIA known issue) |
 | 2025-10-09 | 6.1 | AGX Orin 32G/64G | 4.1.10.0 4.1.10.0_NVMe | 5.15.148-tegra | 1. NVIDIA’s official bug-fix patches. ***(https://elinux.org/Jetson/L4T/r36.4.x_patches)*** |  |
 | 2025-08-22 | 6.1 | AGX Orin 32G/64G | 4.1.7.0 4.1.7.0_NVMe | 5.15.148-tegra | 1. UEFI remove nexcom logo. <br>2. Fixed RS232 communction failure at baud rates below 9600 bps. |  |
 | 2025-05-09 | 6.1 | AGX Orin 32G/64G | 4.1.2.0_NVMe | 5.15.148-tegra | 1. Supported AGX Orin flash to NVMe. |  |
@@ -85,7 +84,6 @@
 | Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | Other |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | 2026-02-26 | 5.1.1 | AGX Orin 32G/64G | 2.3.0 | 5.10.104-tegra | 1. NVIDIA PCN_211461_211462 patch. <br>2. Updated MUT SDK to v2.2.57. <br>3. Set default camera to e-con Systems STURDeCAM31. <br>4. Disabled USB Link Power Management. <br>5. Jetson Orin Field Bulletin – Critical QSPI Software Update. <br>6. Removed Nexcom boot logo. <br>7. Enabled PPS function(GPIO.30, PEE.02). <br>8. Fixed freeze issue during long-duration testing with STURDeCAM31. | |
-| 2026-02-13 | 6.1 | AGX Orin 32G/64G | 4.1.11.0 | 5.15.148-tegra | 1. Updated MUT SDK to v2.2.72. <br>2. Merge the flashing process into a single image for all AGX Orin SoMs system. <br>3. Supported WNFQ-268AXBT(Wi-Fi/BT) module. <br>4. Disabled USB Link Power Management. <br>5. Jetson Orin Field Bulletin – Critical QSPI Software Update. | 1. After flashing the OS, the system may occasionally encounter a black screen issue during the oem-config process, requiring a power-off and reboot the system.(NVIDIA known issue) |
 | 2025-10-09 | 6.1 | AGX Orin 32G/64G | 4.1.10.0 4.1.10.0_NVMe | 5.15.148-tegra | 1. Added support for the Sensing "ISX031C-GMSL2F" GMSL2 camera. <br>2. Update the StereoLabs GMSL2 driver. <br>3. Fixed an issue where the e-con Systems "STURDeCAM31" could not erase/write the SPI flash. <br>4. Applied NVIDIA’s official bug-fix patches. ***(https://elinux.org/Jetson/L4T/r36.4.x_patches)*** |  |
 | 2025-08-22 | 6.1 | AGX Orin 32G/64G | 4.1.7.0 4.1.7.0_NVMe | 5.15.148-tegra | 1. UEFI remove nexcom logo. <br>2. Fixed RS232 communction failure at baud rates below 9600 bps. <br>3. Fix "STURDeCAM31" GMSL2 camera compatibility issue. <br>4. Added support for the "STURDeCAM25" GMSL2 camera. <br>5. Added support for the "StereoLabs" GMSL2 camera. |  |
 | 2025-05-09 | 6.1 | AGX Orin 32G/64G | 4.1.2.0_NVMe | 5.15.148-tegra | 1. Supported AGX Orin flash to NVMe. |  |
