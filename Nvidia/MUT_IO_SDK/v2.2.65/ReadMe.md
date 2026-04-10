@@ -1,4 +1,7 @@
 # Execute using the example MUT_SDK
+
+## You can also find these file in /nexcom/MUT
+
 ### Use root mode and enter service folder
   - sudo -s
   - cd service
