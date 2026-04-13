@@ -64,6 +64,16 @@
 | 2024-10-17 | 6.0(GA2) | Orin NX 8G/16G | 4.0.4.2 | 5.15.136-tegra | 1. Update MUT version to v2.2.34.(Fix demoMCU_AP.py execution error. ) | |
 | 2024-10-15 | 6.0(GA2) | Orin NX 8G/16G | 4.0.4.1 | 5.15.136-tegra | 1. Fix mipi driver issue on v4.0.4.0. <br>2. Fix no HDMI display when connecting the cable after boot. <br>3. Fix Bluetooth mouse disconnecting immediately issue. <br>4. Add support for EM7421 in qcserial driver. | |
 | 2024-09-19 | 6.0(GA2) | Orin NX 8G/16G | 4.0.4.0 | 5.15.136-tegra | 1.  Enable WMX6218 Wi-Fi module led control | |
+| 2024-08-23 | 6.0(GA2) | Orin NX 8G/16G | 4.0.2.0 | 5.15.136-tegra | 1. Add Mipi camera driver. <br> 2. Fix BT issue: Find no device when trying to send files(from phone to orin NX). | |
+| 2024-08-14 | 6.0 | Orin NX 8G/16G | 4.0.1.0 | 5.15.136-tegra | 1. Support ATC3540 8G/16G. | |
+| 2024-07-16 | 5.1.1 | Orin NX 8G/16G | 2.1.0 | 5.10.104-tegra | 1. Fix RTC issue. <br>2. Disable power saving. <br>3. Add acpi event, enable ignition power off. | |
+| 2024-03-29 | 5.1.2 | Orin NX 8G/16G | 3.0.0 | 5.10-120-tegra | 1. Update to Jetpack 5.1.2 | |
+| 2023-11-09 | 5.1.1 | Orin NX 8G/16G | 1.9.0 | 5.10.104-tegra | 1. Fix otg hot-plug issue. <br>2. Fix NVMe status led always on.| |
+| 2023-10-13 | 5.1.1 | Orin NX 8G/16G | 1.7.0 | 5.10.104-tegra | 1. Support MIPI Camera | |
+| 2023-09-18 | 5.1.1 | Orin NX 8G/16G | 1.6.0 | 5.10.104-tegra | 1. Fix bug - power mode.| |
+| 2023-08-09 | 5.1.1 | Orin NX 8G/16G | 1.3.0 | 5.10.104-tegra | 1. Add mipi patch. 2. Fix hdmi compatibiliy issues. | |
+| 2023-06-09 | 5.1.1 | Orin NX 8G/16G | 1.2.0 | 5.10.104-tegra | 1. Add patch to fix booting enviroment temperature below to -20°C. <br> 2. Add LN960 driver. <br> 3. Fix wifi module bug. <br> 4. Kernel module blacklist add BT module, "btusb".| |
+| 2023-05-16 | 5.1.1 | Orin NX 8G/16G | 1.0.0 | 5.10.104-tegra | 1. First release. | |
 
 ## **ATC3750-6C series**
 
@@ -72,9 +82,12 @@
 | 2025-10-09 | 6.1 | AGX Orin 32G/64G | 4.1.10.0 4.1.10.0_NVMe | 5.15.148-tegra | 1. NVIDIA’s official bug-fix patches. ***(https://elinux.org/Jetson/L4T/r36.4.x_patches)*** |  |
 | 2025-08-22 | 6.1 | AGX Orin 32G/64G | 4.1.7.0 4.1.7.0_NVMe | 5.15.148-tegra | 1. UEFI remove nexcom logo. <br>2. Fixed RS232 communction failure at baud rates below 9600 bps. |  |
 | 2025-05-09 | 6.1 | AGX Orin 32G/64G | 4.1.2.0_NVMe | 5.15.148-tegra | 1. Supported AGX Orin flash to NVMe. |  |
-| 2024-11-01 | 6.1 | AGX Orin 32G/64G | 4.1.0.0 | 5.15.148-tegra | 1. Added MUT 2.2.36. <br>2. Support ATC3750-6C 32G/64G. |  |
 | 2024-12-30 | 5.1.1 | AGX Orin 32G/64G | 2.2.0_NVMe | 5.10.104-tegra | 1. Supported AGX Orin flash to NVMe. |  |
 | 2024-11-25 | 5.1.1 | AGX Orin 32G/64G | 2.2.0 | 5.10.104-tegra | 1. Added MUT 2.2.38. <br>2. Fixed otg(host) can't detect device at first time. <br>3. Set Ubuntu 'Power Saving -> Blank Screen' option to 'Never' as default. <br>4. Disable ubuntu 'logout-prompt' to fixed ignition off can't power-off issue. <br>5. NVIDIA PCN_210100 patch. |  |
+| 2024-11-22 | 6.1 | AGX Orin 32G/64G | 4.1.2.0 | 5.15.148-tegra | 1. Add MUT 2.2.38 <br> 2. Fixed UEFI  [FvbNorFlashStandaloneMm] error. <br> 3. Support ATC3750-6C 32G/64G series.| |
+| 2024-08-30 | 6.0(GA2) | AGX Orin 32G/64G | 4.0.3.0 | 5.15.136-tegra | 1. Added MUT 2.2.28. <br>2. Replace Pulseaudio with PipeWire. <br>3. Fixed ATC3750-6C SD card benchmark too low issue. | |
+| 2024-07-05 | 6.0 | AGX Orin 32G/64G | 4.0.0.0 | 5.15.136-tegra | 1. Support ATC3750-6C 32G/64G series | |
+| 2024-02-22 | 5.1.1 | AGX Orin 32G/64G | 2.0.0 | 5.10.104-tegra | 1. Added MUT 2.2.20. <br> 2. Disable Ethernet EEE function. <br> 3. NVIDIA support new DRAM & eMMC patch. | |
 | 2023-09-22 | 5.1.1 | AGX Orin 32G/64G | 1.4.0 | 5.10.104-tegra | 1. Fixed ZQ802XRACB(rtl8821ae) panic issue. <br>2. Fixed AX-210 bluetooth can't connect issue. <br>3. Fixed Azurewave AW-XM458MA reboot won't detect issue. <br>4. Enabled KSZ9477 Jumbo Frame setting. |  |
 | 2023-06-09 | 5.1.1 | AGX Orin 32G/64G | 1.2.0 | 5.10.104-tegra | 1. Supported Telit LN960A16 modules. <br>2. Fixed Azurewave AW-XM458MA can't detect Wi-Fi issue. <br>3. NVIDIA fixed an issue with booting temperature below -20 degree centigrade. |  |
 | 2023-05-24 | 5.1.1 | AGX Orin 32G/64G | 1.1.0 | 5.10.104-tegra | 1. Disabled Suspend function. |  |
@@ -88,9 +101,13 @@
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | 2026-02-26 | 5.1.1 | AGX Orin 32G/64G | 2.3.0 | 5.10.104-tegra | 1. NVIDIA PCN_211461_211462 patch. <br>2. Updated MUT SDK to v2.2.57. <br>3. Set default camera to e-con Systems STURDeCAM31. <br>4. Disabled USB Link Power Management. <br>5. Jetson Orin Field Bulletin – Critical QSPI Software Update. <br>6. Removed Nexcom boot logo. <br>7. Enabled PPS function(GPIO.30, PEE.02). <br>8. Fixed freeze issue during long-duration testing with STURDeCAM31. | |
 | 2025-10-09 | 6.1 | AGX Orin 32G/64G | 4.1.10.0 4.1.10.0_NVMe | 5.15.148-tegra | 1. Added support for the Sensing "ISX031C-GMSL2F" GMSL2 camera. <br>2. Update the StereoLabs GMSL2 driver. <br>3. Fixed an issue where the e-con Systems "STURDeCAM31" could not erase/write the SPI flash. <br>4. Applied NVIDIA’s official bug-fix patches. ***(https://elinux.org/Jetson/L4T/r36.4.x_patches)*** |  |
+| 2025-08-28 | 6.1 | AGX Orin 32G/64G | 4.1.8.0 4.1.8.0_NVMe | 5.15.148-tegra | 1. UEFI remove nexcom logo. <br> 2. Fixed RS232 communction failure at baud rates below 9600 bps. <br> 3. ATC3750-IP7-8M support Stereolabs ZED X gmsl2 camera. <br> 4. ApproPho AP-AR0234 supports frame synchronization between two MAX96712 devices using an external sync signal. | |
 | 2025-08-22 | 6.1 | AGX Orin 32G/64G | 4.1.7.0 4.1.7.0_NVMe | 5.15.148-tegra | 1. UEFI remove nexcom logo. <br>2. Fixed RS232 communction failure at baud rates below 9600 bps. <br>3. Fix "STURDeCAM31" GMSL2 camera compatibility issue. <br>4. Added support for the "STURDeCAM25" GMSL2 camera. <br>5. Added support for the "StereoLabs" GMSL2 camera. |  |
-| 2025-05-09 | 6.1 | AGX Orin 32G/64G | 4.1.2.0_NVMe | 5.15.148-tegra | 1. Supported AGX Orin flash to NVMe. |  |
+| 2025-07-25 | 6.1 | AGX Orin 32G/64G | 4.1.6.0 4.1.6.0_NVMe | 5.15.148-tegra | 1. Update MUT SDK to v2.2.57. <br> 2. Supported Leopard Imaging Hawk and Owl GMSL2 Camera. | |
+| 2025-06-20 | 6.1 | AGX Orin 32G/64G | 4.1.5.0 4.1.5.0_NVMe | 5.15.148-tegra | 1. Remove "rootOnNVMeOrSD" tool. <br> 2. Enable lsm6dsl in-tree driver. <br> 3. Supported ApproPho GMSL2 Camera.(AP-AR0234 / AP-IMX335 / AP-IMX415) <br> 4. Modified e-con Systems driver to supported SerDes x2 lane design. | |
+| 2025-05-09 | 6.1 | AGX Orin 32G/64G | 4.1.4.0_NVMe | 5.15.148-tegra | 1. Supported AGX Orin flash to NVMe. |  |
 | 2024-12-30 | 5.1.1 | AGX Orin 32G/64G | 2.2.0_NVMe | 5.10.104-tegra | 1. Supported AGX Orin flash to NVMe. |  |
+| 2024-12-10 | 6.1 | AGX Orin 32G/64G | 4.1.4.0 | 5.15.148-tegra | 1. Supported e-con System GMSL2 Camera (STURDeCAM21 / *STURDeCAM25 / STURDeCAM31) | |
 | 2024-11-25 | 5.1.1 | AGX Orin 32G/64G | 2.2.0 | 5.10.104-tegra | 1. Added MUT 2.2.38. <br>2. Fixed otg(host) can't detect device at first time. <br>3. Set Ubuntu 'Power Saving -> Blank Screen' option to 'Never' as default. <br>4. Disable ubuntu 'logout-prompt' to fixed ignition off can't power-off issue. <br>5. NVIDIA PCN_210100 patch. |  |
 | 2024-11-01 | 6.1 | AGX Orin 32G/64G | 4.1.0.0 | 5.15.148-tegra | 1. Added MUT 2.2.36. <br>2. Support ATC3750-8M 32G/64G. <br>3. Added support for the "STURDeCAM31" GMSL2 camera. (Currently, only supports 4 cameras) |  |
 | 2023-09-22 | 5.1.1 | AGX Orin 32G/64G | 1.4.0 | 5.10.104-tegra | 1. Fixed ZQ802XRACB(rtl8821ae) panic issue. <br>2. Fixed AX-210 bluetooth can't connect issue. <br>3. Fixed Azurewave AW-XM458MA reboot won't detect issue. <br>4. Enabled KSZ9477 Jumbo Frame setting. |  |
