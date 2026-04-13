@@ -3,18 +3,18 @@
 ## **Prepare another host PC with an Ubuntu system; it cannot be a virtual machine.**
 
 # Recovery
-## 1. The host PC is connected to the ATC35xx via an OTG cable.
-## 2. Execute Putty in host system
+### 1. The host PC is connected to the ATC35xx via an OTG cable.
+### 2. Execute Putty in host system
 	Serial Line : /dev/ttyUSB0
 	Speed : 115200 -> Open
-## 3. Press Enter in putty window and entery password, it will shows the information about update system.
-## 4. Entry command and password then ATC system into recovery mode.
+### 3. Press Enter in putty window and entery password, it will shows the information about update system.
+### 4. Entry command and password then ATC system into recovery mode.
 	$ sudo reboot --force forced-recovery
-## 5. Go back to image folder and decompress image file:
+### 5. Go back to image folder and decompress image file:
 	$ tar xvf ATC35xx_mfi_"version".tar.gz
 	Noted. The commands need to modified according different file names.
-## 6. Using Micro USB cable connects Host system to ATC serial OTG USB port.
-## 7. Excute recover command:
+### 6. Using Micro USB cable connects Host system to ATC serial OTG USB port.
+### 7. Excute recover command:
 	$ sudo ./tools/kernel_flash/L4t_initrd_flash.sh --flash-only --massflash 1
-## 8. When recover process finished, it will shows "Success"
-## 9. Reboot ATC35xx device, it will start to configure the system.
+### 8. When recover process finished, it will shows "Success"
+### 9. Reboot ATC35xx device, it will start to configure the system.
