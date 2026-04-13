@@ -6,12 +6,20 @@
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | 2025-10-31 | 6.2 | Orin Nano 4G/8G | 4.2.5.0 | 5.15.148-tegra | **1.** Added support for the Sensing "ISX031C-GMSL2F" GMSL2 camera.<br> **2.** GPS LED reflects module connection status.<br> 3. Restored UEFI recovery boot, removed unbootable flag logic. <br>4. Added support for WMX7207 Wi-Fi module.<br> 5. Added support for LAN8870 module. <br>6. Updated MUT version to v2.2.65. <br>7. EYY0JNOR-2E00: Fix OTG bug ( No ttyACM0 on host). <br>8. ATC3563: Fix OTG bug ( No ttyACM0 while no USB-A device is connected). |  |
 | 2025-09-19 | 6.2 | Orin Nano 4G/8G | 4.2.4.0 | 5.15.148-tegra | **1.** Remove NEXCOM from UEFI <br>2. Add power mode 25W |  |
+| 2025-09-12 | 6.2 | Orin Nano 4G/8G | 4.2.3.1 | 5.15.148-tegra | **1.** Adjust ATC3562 B ver. Pin define. <br> 2. Remove NEXCOM from UEFI. <br> 3. ATC3563 set COM2 to default. <br> 4. Change module name: ATC3520 -> ATC3560. | |
 | 2025-08-15 | 6.2 | Orin Nano 4G/8G | 4.2.3.0 | 5.15.148-tegra | **1.** Support modules:ATC3520 ATC3560 ATC3561 ATC3562 ATC3563 AIEdge-X80. <br>2. Change module name: A. ATC3540 -> ATC3560 B. ATC3521, ATC3541 -> ATC3561 C. ATC3522, ATC3542 -> ATC3562 <br>3. Need to update MCU version to apply module name changing: A. ATC3561: AT35610R01.bin B. ATC3562: AT35620R01.bin <br>4. Orin Nano power mode remove 25w option. <br>5. Add different fan control configs for different modules. <br>6. Add functionality to configure the POE board via I2C. <br>7. If system hangs for over 30 seconds during shutdown, MCU will force a power-off. <br>8. Orin-NX 16G: If fails to enter OS, MCU will force a reboot (WDT timeout: 180s). <br>9. Add support for OS flashing via USB drive (only for Image versions > 4.2.3.0). |  |
-| 2025-06-27 | 6.2 | Orin Nano 4G/8G | 4.2.2.0 | 5.15.148-tegra | **1.** Support ATC3520, ATC3521, ATC3540, ATC3541. <br>2. Add module ID check in bootloader. <br>3. Fix "tegrastats" displaying fan rpm as 0. <br>4. Update MUT version to v2.2.53. <br>5. Add MCU & Generic Update Tool(GUT). |  |
+| 2025-06-20 | 5.1.2 |  Orin Nano 4G/8G | 3.7.1 | 5.10.120-tegra | **1.** Fix errata applying error, add delay & retry function . | |
+| 2025-06-27 | 6.2 | Orin Nano 4G/8G | 4.2.2.0 | 5.15.148-tegra | **1.** If system hangs for over 30 seconds during shutdown, MCU will force a power-off. |  |
+| 2025-06-10 | 5.1.2 | Orin Nano 4G/8G | 3.7.0 | 5.10.120-tegra | **1.** Add functionality to configure the POE board via I2C. | |
+| 2025-04-18 | 6.2 | Orin Nano | 4.2.1.1 | 5.15.148-tegra | **1. ** Support ATC3522. <br> 2. Change default power mode to super MAXN. | |
 | 2025-05-30 | 6.2 | Orin Nano 4G/8G | 4.2.1.0 | 5.15.148-tegra | **1.** Support ATC3520, ATC3521. <br>2. Remove recovery boot, unbootable lead to direct boot. <br>3. Fix sometimes black screen while running nv-oem-config-firstboot issue. |  |
 | 2024-12-06 | 5.1.2 | Orin Nano 4G/8G | 3.5.0 | 5.10.120-tegra | **1.** Support ATC3520 series. <br>2. Disable screensaver by default. <br>3. Update MUT version to v2.2.39. <br>4. Fix issue where shutdown is delayed when Ignition is off. <br>5. NVIDIA update: PCN_211361. |  |
 | 2024-11-15 | 6.1 | Orin Nano 4G/8G | 4.1.1.0 | 5.15.148-tegra | **1.** Support ATC3520 . |  |
 | 2024-07-16 | 5.1.1 | Orin Nano 4G/8G | 2.1.0 | 5.10.104-tegra | **1.** Fix RTC issue. <br>2. Disable power saving. <br>3. Add acpi event, enable ignition power off. |  |
+| 2023-11-09 | 5.1.1 | Orin Nano 4G/8G | 1.9.0 | 5.10.104-tegra | **1.** Fix otg hot-plug issue. <br>2. Fix NVMe status led always on. | |
+| 2023-10-13 | 5.1.1 | Orin Nano 4G/8G | 1.7.0 | 5.10.104-tegra | **1.** Support MIPI Camera. | |
+| 2023-09-18 | 5.1.1 | Orin Nano 4G/8G | 1.6.0 | 5.10.104-tegra | **1.** Support ATC3520 4G. | |
+| 2023-09-01 | 5.1.1 | Orin Nano 8G | 1.5.0 | 5.10.104-tegra | **1.** Add mipi patch - led. | |
 
 ## **ATC3530**
 
@@ -45,22 +53,17 @@
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | 2025-10-31 | 6.2 | Orin NX 8G/16G | 4.2.5.0 | 5.15.148-tegra | 1. Added support for the Sensing "ISX031C-GMSL2F" GMSL2 camera. <br>2. GPS LED reflects module connection status. <br>3. Restored UEFI recovery boot, removed unbootable flag logic. <br>4. Added support for WMX7207 Wi-Fi module. <br>5. Added support for LAN8870 module. <br>6. Updated MUT version to v2.2.65. <br>7. EYY0JNOR-2E00: Fix OTG bug ( No ttyACM0 on host). <br>8. ATC3563: Fix OTG bug ( No ttyACM0 while no USB-A device is connected). |  |
 | 2025-09-19 | 6.2 | Orin NX 8G/16G | 4.2.4.0 | 5.15.148-tegra | 1. Remove NEXCOM from UEFI <br>2. Add power mode 25W |  |
+| 2025-09-10 | 6.1 | Orin NX 8G/16G | 4.1.9.0 | 5.15.148-tegra | 1. Remove recovery boot, unbootable lead to direct boot. <br>2. Support WMX7207 (WI-FI/BT module). <br>3. Add functionality to configure the POE board via I2C. <br>4. MUT version update to 2.2.58. <br>5. Test_suite version update to 1.3.0. | |
+| 2025-09-05 | 6.2 | Orin NX 8G/16G | 4.2.3.1 | 5.15.148-tegra | 1. Adjust ATC3562 B ver. Pin define. <br>2. Remove NEXCOM from UEFI .<br>3. ATC3563 set COM2 to default. | |
+| 2025-08-27 | 5.1.2 | Orin NX 8G/16G | 3.9.0 | 5.10.120-tegra | 1. Fix power mode error. <br>2. UEFI remove nexcom logo. <br>3. Remove recovery boot, unbootable lead to direct boot. | |
 | 2025-08-15 | 6.2 | Orin NX 8G/16G | 4.2.3.0 | 5.15.148-tegra | 1. Support modules:ATC3520 ATC3560 ATC3561 ATC3562 ATC3563 AIEdge-X80. <br>2. Change module name: A. ATC3540 -> ATC3560 B. ATC3521, ATC3541 -> ATC3561 C. ATC3522, ATC3542 -> ATC3562 <br>3. Need to update MCU version to apply module name changing: A. ATC3561: AT35610R01.bin B. ATC3562: AT35620R01.bin <br>4. Orin Nano power mode remove 25w option. <br>5. Add different fan control configs for different modules. <br>6. Add functionality to configure the POE board via I2C. <br>7. If system hangs for over 30 seconds during shutdown, MCU will force a power-off. <br>8. Orin-NX 16G: If fails to enter OS, MCU will force a reboot (WDT timeout: 180s). <br>9. Add support for OS flashing via USB drive (only for Image versions > 4.2.3.0). |  |
-| 2025-06-27 | 6.2 | Orin NX 8G/16G | 4.2.2.0 | 5.15.148-tegra | 1. Support ATC3520, ATC3521, ATC3540, ATC3541. <br>2. Add module ID check in bootloader. <br>3. Fix "tegrastats" displaying fan rpm as 0. <br>4. Update MUT version to v2.2.53. <br>5. Add MCU & Generic Update Tool(GUT). |  |
-| 2025-05-30 | 6.2 | Orin NX 8G/16G | 4.2.1.0 | 5.15.148-tegra | 1. Support ATC3540, ATC3541. <br>2. Remove recovery boot, unbootable lead to direct boot. <br>3. Fix sometimes black screen while running nv-oem-config-firstboot issue. |  |
 | 2025-02-27 | 6.2 | Orin NX 8G/16G | 4.2.0.0 | 5.15.148-tegra | 1. Support ATC3540, ATC3541 and AIEdge-X80. |  |
-| 2024-12-13 | 5.1.2 | Orin NX 8G/16G | 3.1.5 | 5.10.120-tegra | 1. Update MUT version to v2.2.41 . <br>2. Update realtek driver to fix iperf issue . |  |
-| 2024-08-19 | 5.1.2 | Orin NX 8G/16G | 3.1.4 | 5.10.120-tegra | Fixed network interface. |  |
-| 2024-06-21 | 5.1.2 | Orin NX 8G/16G | 3.1.3 | 5.10.120-tegra | Fix BT transfer problem. |  |
-| 2024-06-04 | 5.1.2 | Orin NX 8G/16G | 3.1.2 | 5.10.120-tegra | Fixed boot up problem. |  |
-| 2024-06-03 | 5.1.2 | Orin NX 8G/16G | 3.1.1 | 5.10.120-tegra | 1. Update MUT version to v2.2.36. <br>2. Set Ubuntu 'Power Saving -> Blank Screen' option to 'Never' as default. <br>3. Disable ubuntu 'logout-prompt' to fixed ignition off can't power-off issue. <br>4. NVIDIA update: PCN_211361. |  |
-| 2024-11-01 | 6.1 | Orin NX 8G/16G | 4.1.0.0 | 5.15.148-tegra | 1. Support ATC3540 8G/16G. <br>2. Set fan control "Quiet" mode as default. |  |
-| 2024-08-14 | 6 | Orin NX 8G/16G | 4.0.1.0 | 5.15.136-tegra | 1. Support ATC3540 8G/16G. |  |
-| 2024-07-16 | 5.1.1 | Orin NX 8G/16G | 2.1.0 | 5.10.104-tegra | 1. Fix RTC issue. <br>2. Disable power saving. <br>3. Add acpi event, enable ignition power off. |  |
-| 2024-03-29 | 5.1.2 | Orin NX 8G/16G | 3.0.0 | 5.10.120-tegra | 1. Update to Jetpack 5.1.2. |  |
-| 2023-11-09 | 5.1.1 | Orin NX 8G/16G | 1.9.0 | 5.10.104-tegra | 1. Fix otg hot-plug issue. <br>2. Fix NVMe status led always on. |  |
-| 2023-10-13 | 5.1.1 | Orin NX 8G/16G | 1.8.0 | 5.10.104-tegra | 1. Fix i210 can't link up after reboot. <br>2. Fix X710 can't link up after reboot. <br>3. Set fan profile to "Quiet" by default. <br>4. Add "Cool" and "Performance" fan profile. <br>5. Support NVMe Gen4. 6. Support rtl8822ce. 7. Add watchdog service. |  |
-| 2023-09-08 | 5.1.1 | Orin NX 8G/16G | 1.7.0 | 5.10.104-tegra | 1. Support ATC3540 8G/16G. |  |
+| 2025-02-04 | 6.0(GA2) | Orin NX 8G/16G | 4.0.4.3 | 5.15.136-tegra | 1. Add CUDA library 12.2, cudnn 8.9.4, openCV 4.10.0 with CUDA support. | |
+| 2024-12-06 | 5.1.2 | Orin NX 8G/16G | 3.6.0 | 5.10.120-tegra | 1. Disable screensaver by default. <br> 2. Update MUT version to v2.2.39. <br>3. Fix issue where shutdown is delayed when Ignition is off. <br>4. NVIDIA update: PCN_211361. | |
+| 2024-11-29 | 6.1 | Orin NX 8G/16G | 4.1.3.0 | 5.15.148-tegra | 1. Support ATC3540 series. <br> 2. Added MUT 2.2.38. <br>3. Fixed UEFI [FvbNorFlashStandaloneMm] error. | |
+| 2024-10-17 | 6.0(GA2) | Orin NX 8G/16G | 4.0.4.2 | 5.15.136-tegra | 1. Update MUT version to v2.2.34.(Fix demoMCU_AP.py execution error. ) | |
+| 2024-10-15 | 6.0(GA2) | Orin NX 8G/16G | 4.0.4.1 | 5.15.136-tegra | 1. Fix mipi driver issue on v4.0.4.0. <br>2. Fix no HDMI display when connecting the cable after boot. <br>3. Fix Bluetooth mouse disconnecting immediately issue. <br>4. Add support for EM7421 in qcserial driver. | |
+| 2024-09-19 | 6.0(GA2) | Orin NX 8G/16G | 4.0.4.0 | 5.15.136-tegra | 1.  Enable WMX6218 Wi-Fi module led control | |
 
 ## **ATC3750-6C series**
 
