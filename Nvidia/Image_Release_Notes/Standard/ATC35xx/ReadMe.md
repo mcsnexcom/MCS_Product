@@ -3,6 +3,7 @@
 ## **Prepare another host PC with an Ubuntu system; it cannot be a virtual machine.**
 
 # Recovery
+<<<<<<< HEAD
 ### 1. The host PC is connected to the ATC35xx via an OTG cable.
 ![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/Image_Release_Notes/Standard/ATC35xx/image/step1.png)
 ### 2. Execute Putty in host system
@@ -21,6 +22,19 @@
 ![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/Image_Release_Notes/Standard/ATC35xx/image/step5.png)
 ### 6. Using Micro USB cable connects Host system to ATC serial OTG USB port.
 ![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/Image_Release_Notes/Standard/ATC35xx/image/step6.png)
+=======
+### 1. Using Micro USB cable connects Host system to ATC serial OTG USB port.
+### 2. The host PC is connected to the ATC35xx via an OTG cable.
+### 3. Execute Putty in host system
+	Serial Line : /dev/ttyUSB0
+	Speed : 115200 -> Open
+### 4. Press Enter in putty window and entery password, it will shows the information about update system.
+### 5. Entry command and password then ATC system into recovery mode.
+	$ sudo reboot --force forced-recovery
+### 6. Go back to image folder and decompress image file:
+	$ tar xvf ATC35xx_mfi_"version".tar.gz
+	Noted. The commands need to modified according different file names.
+>>>>>>> b7ee00c7deac0e9772c7decfdc18a4bc996a3e90
 ### 7. Excute recover command:
 	$ sudo ./tools/kernel_flash/L4t_initrd_flash.sh --flash-only --massflash 1
 ![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/Image_Release_Notes/Standard/ATC35xx/image/step7.png)
