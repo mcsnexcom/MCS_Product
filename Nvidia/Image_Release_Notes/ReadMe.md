@@ -81,7 +81,6 @@
 
 | Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | Other |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| 2026-04-09 | 6.2.2 | AGX Orin 32G/64G | 4.3.1.0 | 5.15.185-tegra | 1. Support ATC375x. <br> 2. Disable USB3 LPM, EEE, ASPM. <br> 3. Prevent nvargus-daemon crash when no camera dts. | |
 | 2026-02-13 | 6.1 | AGX Orin 32G/64G | 4.1.11.0 | 5.15.148-tegra | 1. Updated MUT SDK to v2.2.72. <br> 2. Merge the flashing process into a single image for all AGX Orin SoMs system. <br> 3. Supported WNFQ-268AXBT(Wi-Fi/BT) module. <br> 4. Disabled USB Link Power Management. <br> 5. Jetson Orin Field Bulletin – Critical QSPI Software Update. | |
 | 2025-10-09 | 6.1 | AGX Orin 32G/64G | 4.1.10.0 4.1.10.0_NVMe | 5.15.148-tegra | 1. NVIDIA’s official bug-fix patches. ***(https://elinux.org/Jetson/L4T/r36.4.x_patches)*** |  |
 | 2025-08-22 | 6.1 | AGX Orin 32G/64G | 4.1.7.0 4.1.7.0_NVMe | 5.15.148-tegra | 1. UEFI remove nexcom logo. <br>2. Fixed RS232 communction failure at baud rates below 9600 bps. |  |
