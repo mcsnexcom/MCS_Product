@@ -103,7 +103,6 @@
 
 | Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | Other |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| 2026-04-09 | 6.2.2. | AGX Orin 32G/64G | 4.3.1.0 | 5.15.185-tegra | 1. Support ATC375x. <br> 2. Disable USB3 LPM, EEE, ASPM. <br> 3. Prevent nvargus-daemon crash when no camera dts. | |
 | 2026-02-26 | 5.1.1 | AGX Orin 32G/64G | 2.3.0 | 5.10.104-tegra | 1. NVIDIA PCN_211461_211462 patch. <br>2. Updated MUT SDK to v2.2.57. <br>3. Set default camera to e-con Systems STURDeCAM31. <br>4. Disabled USB Link Power Management. <br>5. Jetson Orin Field Bulletin – Critical QSPI Software Update. <br>6. Removed Nexcom boot logo. <br>7. Enabled PPS function(GPIO.30, PEE.02). <br>8. Fixed freeze issue during long-duration testing with STURDeCAM31. | |
 | 2025-10-09 | 6.1 | AGX Orin 32G/64G | 4.1.10.0 4.1.10.0_NVMe | 5.15.148-tegra | 1. Added support for the Sensing "ISX031C-GMSL2F" GMSL2 camera. <br>2. Update the StereoLabs GMSL2 driver. <br>3. Fixed an issue where the e-con Systems "STURDeCAM31" could not erase/write the SPI flash. <br>4. Applied NVIDIA’s official bug-fix patches. ***(https://elinux.org/Jetson/L4T/r36.4.x_patches)*** |  |
 | 2025-08-28 | 6.1 | AGX Orin 32G/64G | 4.1.8.0 4.1.8.0_NVMe | 5.15.148-tegra | 1. UEFI remove nexcom logo. <br> 2. Fixed RS232 communction failure at baud rates below 9600 bps. <br> 3. ATC3750-IP7-8M support Stereolabs ZED X gmsl2 camera. <br> 4. ApproPho AP-AR0234 supports frame synchronization between two MAX96712 devices using an external sync signal. | |
