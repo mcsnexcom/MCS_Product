@@ -1,6 +1,6 @@
-[ATC356x Jetpack 6.2.2 Kernel Customization]
+# [ATC356x Jetpack 6.2.2 Kernel Customization]
 
-## 1. Linux_for_Tegra
+## **1. Linux_for_Tegra**
 ### a. Download driver package (BSP)
 	wget https://developer.nvidia.com/downloads/embedded/l4t/r36_release_v5.0/release/Jetson_Linux_r36.5.0_aarch64.tbz2
 ### b. Untar package<br>
@@ -14,7 +14,7 @@
 	* tar xf kernel_oot_modules_src.tbz2
 	* tar xf nvidia_kernel_display_driver_source.tbz2
 
-## 2. Root filesystem
+## **2. Root filesystem**
 ### a. Clean rootfs's file
 	rm -rf <install_path>/Linux_for_Tegra/rootfs/*
 ### b. Download sample root filesystem<br>
@@ -22,7 +22,7 @@
 ### c. Untar sample root filesystem
 	sudo tar xpf <Sample_Root_Filesystem> -C Linux_for_Tegra/rootfs/
 
-## 3. Start build kernel & modules
+## **3. Start build kernel & modules**
 ### a. Copy bsp patch
 	cp -a patch/bsp_patch/. Linux_for_Tegra/
 ### b. Copy kernel patch
@@ -59,7 +59,7 @@
 		* cd <install-path>/Linux_for_Tegra
 		* sudo ./tools/l4t_update_initrd.sh
 
-## 4. Build the DTBs
+## **4. Build the DTBs**
 ### a. Go to the build directory
 	cd <install-path>/Linux_for_Tegra/<kernel_sources_directory>
 ### b. Build
@@ -69,5 +69,5 @@
 ### c. Install
 	cp -a kernel-devicetree/generic-dts/dtbs/* <install-path>/Linux_for_Tegra/kernel/dtb/
 
-## 5. Run the script "package_atc356x.sh" in Linux_for_Tegra
+## **5. Run the script "package_atc356x.sh" in Linux_for_Tegra**
 
