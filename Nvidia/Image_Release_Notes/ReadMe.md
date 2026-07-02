@@ -2,7 +2,7 @@
 
 ## **ATC3520 / ATC3560-IP7-NA4C / ATC3561-NA4C / ATC3562-IP7-NA4M / ATC3563-NA8C/NA8CR**
 
-| Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | BOM |
+| Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | Default ship version |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | 2026-04-09 | 6.2.2 | Orin Nano 4G/8G | 4.3.0.0 | 5.15.185-tegra | **1.** Support ATC3560, ATC3561, ATC3562, ATC3563.<br> **2.** Prevent nvargus-daemon crash when no camera dts. <br> **3.** Improve ksz9477s errata script. <br> **4.** Disable USB3 LPM, EEE, ASPM. | |
 | 2025-10-31 | 6.2 | Orin Nano 4G/8G | 4.2.5.0 | 5.15.148-tegra | **1.** Added support for the Sensing "ISX031C-GMSL2F" GMSL2 camera.<br> **2.** GPS LED reflects module connection status.<br> 3. Restored UEFI recovery boot, removed unbootable flag logic. <br>4. Added support for WMX7207 Wi-Fi module.<br> 5. Added support for LAN8870 module. <br>6. Updated MUT version to v2.2.65. <br>7. EYY0JNOR-2E00: Fix OTG bug ( No ttyACM0 on host). <br>8. ATC3563: Fix OTG bug ( No ttyACM0 while no USB-A device is connected). | ATC3520-IP7-4C-8 |
@@ -24,7 +24,7 @@
 
 ## **ATC3530**
 
-| Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | BOM |
+| Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | Default ship version |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | 2025-07-09 | 5.1.3 | Xavier NX 8G/16G | 3.8.0 | 5.10.192-tegra | 1. Remove recovery boot, unbootable lead to direct boot. |  |
 | 2024-10-11 | 5.1.3 | Xavier NX 8G/16G | 3.4.0 | 5.10.192-tegra | 1. Fix intermittent boot issues with no HDMI display. <br>2. Resolve MIPI camera startup failure on specific boards. <br>3. Fix occasional USB 3.0 functionality issues during boot. <br>4. Add LED functionality for the WMX6218 Wi-Fi module. | ATC3530-IP7-4C <br> ATC3530-IP7-4C-16 |
@@ -50,7 +50,7 @@
 
 ## **ATC3540 / ATC3560-IP7-NX4C/NX4CF / ATC3560-IP7-NXAI4CR / ATC3561-NX4CF / ATC3562-IP7-NX4MF / ATC3563-NX8C/NXA8CR**
 
-| Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | BOM |
+| Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | Default ship version |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | 2026-04-09 | 6.2.2 | Orin NX 8G/16G | 4.3.0.0 | 5.15.185-tegra | **1.** Support ATC3560, ATC3561, ATC3562, ATC3563.<br> **2.** Prevent nvargus-daemon crash when no camera dts. <br> **3.** Improve ksz9477s errata script. <br> **4.** Disable USB3 LPM, EEE, ASPM. | |
 | 2025-10-31 | 6.2 | Orin NX 8G/16G | 4.2.5.0 | 5.15.148-tegra | 1. Added support for the Sensing "ISX031C-GMSL2F" GMSL2 camera. <br>2. GPS LED reflects module connection status. <br>3. Restored UEFI recovery boot, removed unbootable flag logic. <br>4. Added support for WMX7207 Wi-Fi module. <br>5. Added support for LAN8870 module. <br>6. Updated MUT version to v2.2.65. <br>7. EYY0JNOR-2E00: Fix OTG bug ( No ttyACM0 on host). <br>8. ATC3563: Fix OTG bug ( No ttyACM0 while no USB-A device is connected). |  |
@@ -79,7 +79,7 @@
 
 ## **ATC3750-6C series**
 
-| Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | BOM |
+| Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | Default ship version |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | 2026-02-13 | 6.1 | AGX Orin 32G/64G | 4.1.11.0 | 5.15.148-tegra | 1. Updated MUT SDK to v2.2.72. <br> 2. Merge the flashing process into a single image for all AGX Orin SoMs system. <br> 3. Supported WNFQ-268AXBT(Wi-Fi/BT) module. <br> 4. Disabled USB Link Power Management. <br> 5. Jetson Orin Field Bulletin – Critical QSPI Software Update. | |
 | 2025-10-09 | 6.1 | AGX Orin 32G/64G | 4.1.10.0 4.1.10.0_NVMe | 5.15.148-tegra | 1. NVIDIA’s official bug-fix patches. ***(https://elinux.org/Jetson/L4T/r36.4.x_patches)*** |  |
@@ -100,7 +100,7 @@
 
 ## **ATC3750-IP7-8M series**
 
-| Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | BOM |
+| Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | Default ship version |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | 2026-02-26 | 5.1.1 | AGX Orin 32G/64G | 2.3.0 | 5.10.104-tegra | 1. NVIDIA PCN_211461_211462 patch. <br>2. Updated MUT SDK to v2.2.57. <br>3. Set default camera to e-con Systems STURDeCAM31. <br>4. Disabled USB Link Power Management. <br>5. Jetson Orin Field Bulletin – Critical QSPI Software Update. <br>6. Removed Nexcom boot logo. <br>7. Enabled PPS function(GPIO.30, PEE.02). <br>8. Fixed freeze issue during long-duration testing with STURDeCAM31. | |
 | 2025-10-09 | 6.1 | AGX Orin 32G/64G | 4.1.10.0 4.1.10.0_NVMe | 5.15.148-tegra | 1. Added support for the Sensing "ISX031C-GMSL2F" GMSL2 camera. <br>2. Update the StereoLabs GMSL2 driver. <br>3. Fixed an issue where the e-con Systems "STURDeCAM31" could not erase/write the SPI flash. <br>4. Applied NVIDIA’s official bug-fix patches. ***(https://elinux.org/Jetson/L4T/r36.4.x_patches)*** |  |
