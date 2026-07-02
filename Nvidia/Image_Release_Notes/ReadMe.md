@@ -9,18 +9,18 @@
 | 2025-09-19 | 6.2 | Orin Nano 4G/8G | 4.2.4.0 | 5.15.148-tegra | **1.** Remove NEXCOM from UEFI <br>2. Add power mode 25W | ATC3562-IP7-NA4M-8 <br> ATC3563-NA8C-8 <br> ATC3563-NAA8CR-8| 
 | 2025-09-12 | 6.2 | Orin Nano 4G/8G | 4.2.3.1 | 5.15.148-tegra | **1.** Adjust ATC3562 B ver. Pin define. <br> 2. Remove NEXCOM from UEFI. <br> 3. ATC3563 set COM2 to default. <br> 4. Change module name: ATC3520 -> ATC3560. | | 
 | 2025-08-15 | 6.2 | Orin Nano 4G/8G | 4.2.3.0 | 5.15.148-tegra | **1.** Support modules:ATC3520 ATC3560 ATC3561 ATC3562 ATC3563. <br>2. Change module name: A. ATC3540 -> ATC3560 B. ATC3521, ATC3541 -> ATC3561 C. ATC3522, ATC3542 -> ATC3562 <br>3. Need to update MCU version to apply module name changing: A. ATC3561: AT35610R01.bin B. ATC3562: AT35620R01.bin <br>4. Orin Nano power mode remove 25w option. <br>5. Add different fan control configs for different modules. <br>6. Add functionality to configure the POE board via I2C. <br>7. If system hangs for over 30 seconds during shutdown, MCU will force a power-off. <br>8. Orin-NX 16G: If fails to enter OS, MCU will force a reboot (WDT timeout: 180s). <br>9. Add support for OS flashing via USB drive (only for Image versions > 4.2.3.0). | ATC3560-IP7-NA4C-8 <br> ATC3561-NA4C-8 | 
-| 2025-06-20 | 5.1.2 |  Orin Nano 4G/8G | 3.7.1 | 5.10.120-tegra | **1.** Fix errata applying error, add delay & retry function . | | 
-| 2025-06-27 | 6.2 | Orin Nano 4G/8G | 4.2.2.0 | 5.15.148-tegra | **1.** If system hangs for over 30 seconds during shutdown, MCU will force a power-off. |  | 
-| 2025-06-10 | 5.1.2 | Orin Nano 4G/8G | 3.7.0 | 5.10.120-tegra | **1.** Add functionality to configure the POE board via I2C. | | 
-| 2025-04-18 | 6.2 | Orin Nano | 4.2.1.1 | 5.15.148-tegra | **1. ** Support ATC3522. <br> 2. Change default power mode to super MAXN. | | 
-| 2025-05-30 | 6.2 | Orin Nano 4G/8G | 4.2.1.0 | 5.15.148-tegra | **1.** Support ATC3520, ATC3521. <br>2. Remove recovery boot, unbootable lead to direct boot. <br>3. Fix sometimes black screen while running nv-oem-config-firstboot issue. |  | 
-| 2024-12-06 | 5.1.2 | Orin Nano 4G/8G | 3.5.0 | 5.10.120-tegra | **1.** Support ATC3520 series. <br>2. Disable screensaver by default. <br>3. Update MUT version to v2.2.39. <br>4. Fix issue where shutdown is delayed when Ignition is off. <br>5. NVIDIA update: PCN_211361. |  | |
-| 2024-11-15 | 6.1 | Orin Nano 4G/8G | 4.1.1.0 | 5.15.148-tegra | **1.** Support ATC3520 . |  | 
-| 2024-07-16 | 5.1.1 | Orin Nano 4G/8G | 2.1.0 | 5.10.104-tegra | **1.** Fix RTC issue. <br>2. Disable power saving. <br>3. Add acpi event, enable ignition power off. |  | 
-| 2023-11-09 | 5.1.1 | Orin Nano 4G/8G | 1.9.0 | 5.10.104-tegra | **1.** Fix otg hot-plug issue. <br>2. Fix NVMe status led always on. | | 
-| 2023-10-13 | 5.1.1 | Orin Nano 4G/8G | 1.7.0 | 5.10.104-tegra | **1.** Support MIPI Camera. | | 
-| 2023-09-18 | 5.1.1 | Orin Nano 4G/8G | 1.6.0 | 5.10.104-tegra | **1.** Support ATC3520 4G. | | 
-| 2023-09-01 | 5.1.1 | Orin Nano 8G | 1.5.0 | 5.10.104-tegra | **1.** Add mipi patch - led. | | 
+| 2025-06-20 | 5.1.2 |  Orin Nano 4G/8G | 3.7.1 | 5.10.120-tegra | **1.** Fix errata applying error, add delay & retry function . | |
+| 2025-06-27 | 6.2 | Orin Nano 4G/8G | 4.2.2.0 | 5.15.148-tegra | **1.** If system hangs for over 30 seconds during shutdown, MCU will force a power-off. |  |
+| 2025-06-10 | 5.1.2 | Orin Nano 4G/8G | 3.7.0 | 5.10.120-tegra | **1.** Add functionality to configure the POE board via I2C. | |
+| 2025-04-18 | 6.2 | Orin Nano | 4.2.1.1 | 5.15.148-tegra | **1. ** Support ATC3522. <br> 2. Change default power mode to super MAXN. | |
+| 2025-05-30 | 6.2 | Orin Nano 4G/8G | 4.2.1.0 | 5.15.148-tegra | **1.** Support ATC3520, ATC3521. <br>2. Remove recovery boot, unbootable lead to direct boot. <br>3. Fix sometimes black screen while running nv-oem-config-firstboot issue. |  |
+| 2024-12-06 | 5.1.2 | Orin Nano 4G/8G | 3.5.0 | 5.10.120-tegra | **1.** Support ATC3520 series. <br>2. Disable screensaver by default. <br>3. Update MUT version to v2.2.39. <br>4. Fix issue where shutdown is delayed when Ignition is off. <br>5. NVIDIA update: PCN_211361. |  |
+| 2024-11-15 | 6.1 | Orin Nano 4G/8G | 4.1.1.0 | 5.15.148-tegra | **1.** Support ATC3520 . |  |
+| 2024-07-16 | 5.1.1 | Orin Nano 4G/8G | 2.1.0 | 5.10.104-tegra | **1.** Fix RTC issue. <br>2. Disable power saving. <br>3. Add acpi event, enable ignition power off. |  |
+| 2023-11-09 | 5.1.1 | Orin Nano 4G/8G | 1.9.0 | 5.10.104-tegra | **1.** Fix otg hot-plug issue. <br>2. Fix NVMe status led always on. | |
+| 2023-10-13 | 5.1.1 | Orin Nano 4G/8G | 1.7.0 | 5.10.104-tegra | **1.** Support MIPI Camera. | |
+| 2023-09-18 | 5.1.1 | Orin Nano 4G/8G | 1.6.0 | 5.10.104-tegra | **1.** Support ATC3520 4G. | |
+| 2023-09-01 | 5.1.1 | Orin Nano 8G | 1.5.0 | 5.10.104-tegra | **1.** Add mipi patch - led. | |
 
 ## **ATC3530**
 
