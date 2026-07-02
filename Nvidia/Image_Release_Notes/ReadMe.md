@@ -2,13 +2,13 @@
 
 ## **ATC3520 / ATC3560-IP7-NA4C / ATC3561-NA4C / ATC3562-IP7-NA4M / ATC3563-NA8C/NA8CR**
 
-| Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | Other |
+| Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | BOM |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | 2026-04-09 | 6.2.2 | Orin Nano 4G/8G | 4.3.0.0 | 5.15.185-tegra | **1.** Support ATC3560, ATC3561, ATC3562, ATC3563 and AIEdge-X80.<br> **2.** Prevent nvargus-daemon crash when no camera dts. <br> **3.** Improve ksz9477s errata script. <br> **4.** Disable USB3 LPM, EEE, ASPM. | |
-| 2025-10-31 | 6.2 | Orin Nano 4G/8G | 4.2.5.0 | 5.15.148-tegra | **1.** Added support for the Sensing "ISX031C-GMSL2F" GMSL2 camera.<br> **2.** GPS LED reflects module connection status.<br> 3. Restored UEFI recovery boot, removed unbootable flag logic. <br>4. Added support for WMX7207 Wi-Fi module.<br> 5. Added support for LAN8870 module. <br>6. Updated MUT version to v2.2.65. <br>7. EYY0JNOR-2E00: Fix OTG bug ( No ttyACM0 on host). <br>8. ATC3563: Fix OTG bug ( No ttyACM0 while no USB-A device is connected). |  |
-| 2025-09-19 | 6.2 | Orin Nano 4G/8G | 4.2.4.0 | 5.15.148-tegra | **1.** Remove NEXCOM from UEFI <br>2. Add power mode 25W |  |
+| 2025-10-31 | 6.2 | Orin Nano 4G/8G | 4.2.5.0 | 5.15.148-tegra | **1.** Added support for the Sensing "ISX031C-GMSL2F" GMSL2 camera.<br> **2.** GPS LED reflects module connection status.<br> 3. Restored UEFI recovery boot, removed unbootable flag logic. <br>4. Added support for WMX7207 Wi-Fi module.<br> 5. Added support for LAN8870 module. <br>6. Updated MUT version to v2.2.65. <br>7. EYY0JNOR-2E00: Fix OTG bug ( No ttyACM0 on host). <br>8. ATC3563: Fix OTG bug ( No ttyACM0 while no USB-A device is connected). | ATC3520-IP7-4C-8 |
+| 2025-09-19 | 6.2 | Orin Nano 4G/8G | 4.2.4.0 | 5.15.148-tegra | **1.** Remove NEXCOM from UEFI <br>2. Add power mode 25W | ATC3562-IP7-NA4M-8 <br> ATC3563-NA8C-8 <br> ATC3563-NAA8CR-8|
 | 2025-09-12 | 6.2 | Orin Nano 4G/8G | 4.2.3.1 | 5.15.148-tegra | **1.** Adjust ATC3562 B ver. Pin define. <br> 2. Remove NEXCOM from UEFI. <br> 3. ATC3563 set COM2 to default. <br> 4. Change module name: ATC3520 -> ATC3560. | |
-| 2025-08-15 | 6.2 | Orin Nano 4G/8G | 4.2.3.0 | 5.15.148-tegra | **1.** Support modules:ATC3520 ATC3560 ATC3561 ATC3562 ATC3563 AIEdge-X80. <br>2. Change module name: A. ATC3540 -> ATC3560 B. ATC3521, ATC3541 -> ATC3561 C. ATC3522, ATC3542 -> ATC3562 <br>3. Need to update MCU version to apply module name changing: A. ATC3561: AT35610R01.bin B. ATC3562: AT35620R01.bin <br>4. Orin Nano power mode remove 25w option. <br>5. Add different fan control configs for different modules. <br>6. Add functionality to configure the POE board via I2C. <br>7. If system hangs for over 30 seconds during shutdown, MCU will force a power-off. <br>8. Orin-NX 16G: If fails to enter OS, MCU will force a reboot (WDT timeout: 180s). <br>9. Add support for OS flashing via USB drive (only for Image versions > 4.2.3.0). |  |
+| 2025-08-15 | 6.2 | Orin Nano 4G/8G | 4.2.3.0 | 5.15.148-tegra | **1.** Support modules:ATC3520 ATC3560 ATC3561 ATC3562 ATC3563 AIEdge-X80. <br>2. Change module name: A. ATC3540 -> ATC3560 B. ATC3521, ATC3541 -> ATC3561 C. ATC3522, ATC3542 -> ATC3562 <br>3. Need to update MCU version to apply module name changing: A. ATC3561: AT35610R01.bin B. ATC3562: AT35620R01.bin <br>4. Orin Nano power mode remove 25w option. <br>5. Add different fan control configs for different modules. <br>6. Add functionality to configure the POE board via I2C. <br>7. If system hangs for over 30 seconds during shutdown, MCU will force a power-off. <br>8. Orin-NX 16G: If fails to enter OS, MCU will force a reboot (WDT timeout: 180s). <br>9. Add support for OS flashing via USB drive (only for Image versions > 4.2.3.0). | ATC3560-IP7-NA4C-8 <br> ATC3561-NA4C-8 |
 | 2025-06-20 | 5.1.2 |  Orin Nano 4G/8G | 3.7.1 | 5.10.120-tegra | **1.** Fix errata applying error, add delay & retry function . | |
 | 2025-06-27 | 6.2 | Orin Nano 4G/8G | 4.2.2.0 | 5.15.148-tegra | **1.** If system hangs for over 30 seconds during shutdown, MCU will force a power-off. |  |
 | 2025-06-10 | 5.1.2 | Orin Nano 4G/8G | 3.7.0 | 5.10.120-tegra | **1.** Add functionality to configure the POE board via I2C. | |
@@ -24,10 +24,10 @@
 
 ## **ATC3530**
 
-| Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | Other |
+| Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | BOM |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | 2025-07-09 | 5.1.3 | Xavier NX 8G/16G | 3.8.0 | 5.10.192-tegra | 1. Remove recovery boot, unbootable lead to direct boot. |  |
-| 2024-10-11 | 5.1.3 | Xavier NX 8G/16G | 3.4.0 | 5.10.192-tegra | 1. Fix intermittent boot issues with no HDMI display. <br>2. Resolve MIPI camera startup failure on specific boards. <br>3. Fix occasional USB 3.0 functionality issues during boot. <br>4. Add LED functionality for the WMX6218 Wi-Fi module. |  |
+| 2024-10-11 | 5.1.3 | Xavier NX 8G/16G | 3.4.0 | 5.10.192-tegra | 1. Fix intermittent boot issues with no HDMI display. <br>2. Resolve MIPI camera startup failure on specific boards. <br>3. Fix occasional USB 3.0 functionality issues during boot. <br>4. Add LED functionality for the WMX6218 Wi-Fi module. | ATC3530-IP7-4C <br> ATC3530-IP7-4C-16 |
 | 2024-09-19 | 4.6 | Xavier NX 8G/16G | 2.4.0 | 4.9.253-tegra | 1. Add LED indicator functionality for the WMX6218 Wi-Fi module. <br>2. Fix GPS detection issue with WIFI module WMX6218 . |  |
 | 2024-08-02 | 5.1.3 | Xavier NX 8G/16G | 3.3.0 | 5.10.192-tegra | 1. Support ATC3530 8G/16G. |  |
 | 2024-07-17 | 5.0.2 | Xavier NX 8G/16G | 3.1.0 | 5.10.104-tegra | 1. Fix RTC issue. <br>2. Disable power saving. <br>3. Add acpi event, enable ignition power off. |  |
@@ -50,15 +50,15 @@
 
 ## **ATC3540 / ATC3560-IP7-NX4C/NX4CF / ATC3560-IP7-NXAI4CR / ATC3561-NX4CF / ATC3562-IP7-NX4MF / ATC3563-NX8C/NXA8CR**
 
-| Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | Other |
+| Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | BOM |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | 2026-04-09 | 6.2.2 | Orin NX 8G/16G | 4.3.0.0 | 5.15.185-tegra | **1.** Support ATC3560, ATC3561, ATC3562, ATC3563 and AIEdge-X80.<br> **2.** Prevent nvargus-daemon crash when no camera dts. <br> **3.** Improve ksz9477s errata script. <br> **4.** Disable USB3 LPM, EEE, ASPM. | |
 | 2025-10-31 | 6.2 | Orin NX 8G/16G | 4.2.5.0 | 5.15.148-tegra | 1. Added support for the Sensing "ISX031C-GMSL2F" GMSL2 camera. <br>2. GPS LED reflects module connection status. <br>3. Restored UEFI recovery boot, removed unbootable flag logic. <br>4. Added support for WMX7207 Wi-Fi module. <br>5. Added support for LAN8870 module. <br>6. Updated MUT version to v2.2.65. <br>7. EYY0JNOR-2E00: Fix OTG bug ( No ttyACM0 on host). <br>8. ATC3563: Fix OTG bug ( No ttyACM0 while no USB-A device is connected). |  |
-| 2025-09-19 | 6.2 | Orin NX 8G/16G | 4.2.4.0 | 5.15.148-tegra | 1. Remove NEXCOM from UEFI <br>2. Add power mode 25W |  |
+| 2025-09-19 | 6.2 | Orin NX 8G/16G | 4.2.4.0 | 5.15.148-tegra | 1. Remove NEXCOM from UEFI <br>2. Add power mode 25W | ATC3562-IP7-NX4MF<br> ATC3562-IP7-NX4MF-16<br> ATC3563-NX8C<br>ATC3563-NXA8CR<br>ATC3563-NX8C-16<br>ATC3563-NXA8CR-16 |
 | 2025-09-10 | 6.1 | Orin NX 8G/16G | 4.1.9.0 | 5.15.148-tegra | 1. Remove recovery boot, unbootable lead to direct boot. <br>2. Support WMX7207 (WI-FI/BT module). <br>3. Add functionality to configure the POE board via I2C. <br>4. MUT version update to 2.2.58. <br>5. Test_suite version update to 1.3.0. | |
 | 2025-09-05 | 6.2 | Orin NX 8G/16G | 4.2.3.1 | 5.15.148-tegra | 1. Adjust ATC3562 B ver. Pin define. <br>2. Remove NEXCOM from UEFI .<br>3. ATC3563 set COM2 to default. | |
 | 2025-08-27 | 5.1.2 | Orin NX 8G/16G | 3.9.0 | 5.10.120-tegra | 1. Fix power mode error. <br>2. UEFI remove nexcom logo. <br>3. Remove recovery boot, unbootable lead to direct boot. | |
-| 2025-08-15 | 6.2 | Orin NX 8G/16G | 4.2.3.0 | 5.15.148-tegra | 1. Support modules:ATC3520 ATC3560 ATC3561 ATC3562 ATC3563 AIEdge-X80. <br>2. Change module name: A. ATC3540 -> ATC3560 B. ATC3521, ATC3541 -> ATC3561 C. ATC3522, ATC3542 -> ATC3562 <br>3. Need to update MCU version to apply module name changing: A. ATC3561: AT35610R01.bin B. ATC3562: AT35620R01.bin <br>4. Orin Nano power mode remove 25w option. <br>5. Add different fan control configs for different modules. <br>6. Add functionality to configure the POE board via I2C. <br>7. If system hangs for over 30 seconds during shutdown, MCU will force a power-off. <br>8. Orin-NX 16G: If fails to enter OS, MCU will force a reboot (WDT timeout: 180s). <br>9. Add support for OS flashing via USB drive (only for Image versions > 4.2.3.0). |  |
+| 2025-08-15 | 6.2 | Orin NX 8G/16G | 4.2.3.0 | 5.15.148-tegra | 1. Support modules:ATC3520 ATC3560 ATC3561 ATC3562 ATC3563 AIEdge-X80. <br>2. Change module name: A. ATC3540 -> ATC3560 B. ATC3521, ATC3541 -> ATC3561 C. ATC3522, ATC3542 -> ATC3562 <br>3. Need to update MCU version to apply module name changing: A. ATC3561: AT35610R01.bin B. ATC3562: AT35620R01.bin <br>4. Orin Nano power mode remove 25w option. <br>5. Add different fan control configs for different modules. <br>6. Add functionality to configure the POE board via I2C. <br>7. If system hangs for over 30 seconds during shutdown, MCU will force a power-off. <br>8. Orin-NX 16G: If fails to enter OS, MCU will force a reboot (WDT timeout: 180s). <br>9. Add support for OS flashing via USB drive (only for Image versions > 4.2.3.0). | ATC3560-IP7-NX4CF <br> ATC3560-IP7-NX4C <br> ATC3560-IP7-NX4CF-16 <br> ATC3561-NX4CF-16 |
 | 2025-02-27 | 6.2 | Orin NX 8G/16G | 4.2.0.0 | 5.15.148-tegra | 1. Support ATC3540, ATC3541 and AIEdge-X80. |  |
 | 2025-02-04 | 6.0(GA2) | Orin NX 8G/16G | 4.0.4.3 | 5.15.136-tegra | 1. Add CUDA library 12.2, cudnn 8.9.4, openCV 4.10.0 with CUDA support. | |
 | 2024-12-06 | 5.1.2 | Orin NX 8G/16G | 3.6.0 | 5.10.120-tegra | 1. Disable screensaver by default. <br> 2. Update MUT version to v2.2.39. <br>3. Fix issue where shutdown is delayed when Ignition is off. <br>4. NVIDIA update: PCN_211361. | |
@@ -66,7 +66,7 @@
 | 2024-10-17 | 6.0(GA2) | Orin NX 8G/16G | 4.0.4.2 | 5.15.136-tegra | 1. Update MUT version to v2.2.34.(Fix demoMCU_AP.py execution error. ) | |
 | 2024-10-15 | 6.0(GA2) | Orin NX 8G/16G | 4.0.4.1 | 5.15.136-tegra | 1. Fix mipi driver issue on v4.0.4.0. <br>2. Fix no HDMI display when connecting the cable after boot. <br>3. Fix Bluetooth mouse disconnecting immediately issue. <br>4. Add support for EM7421 in qcserial driver. | |
 | 2024-09-19 | 6.0(GA2) | Orin NX 8G/16G | 4.0.4.0 | 5.15.136-tegra | 1.  Enable WMX6218 Wi-Fi module led control | |
-| 2024-08-23 | 6.0(GA2) | Orin NX 8G/16G | 4.0.2.0 | 5.15.136-tegra | 1. Add Mipi camera driver. <br> 2. Fix BT issue: Find no device when trying to send files(from phone to orin NX). | |
+| 2024-08-23 | 6.0(GA2) | Orin NX 8G/16G | 4.0.2.0 | 5.15.136-tegra | 1. Add Mipi camera driver. <br> 2. Fix BT issue: Find no device when trying to send files(from phone to orin NX). | ATC3540-IP7-4C <br> ATC3540-IP7-4C-16 |
 | 2024-08-14 | 6.0 | Orin NX 8G/16G | 4.0.1.0 | 5.15.136-tegra | 1. Support ATC3540 8G/16G. | |
 | 2024-07-16 | 5.1.1 | Orin NX 8G/16G | 2.1.0 | 5.10.104-tegra | 1. Fix RTC issue. <br>2. Disable power saving. <br>3. Add acpi event, enable ignition power off. | |
 | 2024-03-29 | 5.1.2 | Orin NX 8G/16G | 3.0.0 | 5.10-120-tegra | 1. Update to Jetpack 5.1.2 | |
@@ -79,12 +79,12 @@
 
 ## **ATC3750-6C series**
 
-| Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | Other |
+| Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | BOM |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | 2026-02-13 | 6.1 | AGX Orin 32G/64G | 4.1.11.0 | 5.15.148-tegra | 1. Updated MUT SDK to v2.2.72. <br> 2. Merge the flashing process into a single image for all AGX Orin SoMs system. <br> 3. Supported WNFQ-268AXBT(Wi-Fi/BT) module. <br> 4. Disabled USB Link Power Management. <br> 5. Jetson Orin Field Bulletin – Critical QSPI Software Update. | |
 | 2025-10-09 | 6.1 | AGX Orin 32G/64G | 4.1.10.0 4.1.10.0_NVMe | 5.15.148-tegra | 1. NVIDIA’s official bug-fix patches. ***(https://elinux.org/Jetson/L4T/r36.4.x_patches)*** |  |
 | 2025-08-22 | 6.1 | AGX Orin 32G/64G | 4.1.7.0 4.1.7.0_NVMe | 5.15.148-tegra | 1. UEFI remove nexcom logo. <br>2. Fixed RS232 communction failure at baud rates below 9600 bps. |  |
-| 2025-05-09 | 6.1 | AGX Orin 32G/64G | 4.1.2.0_NVMe | 5.15.148-tegra | 1. Supported AGX Orin flash to NVMe. |  |
+| 2025-05-09 | 6.1 | AGX Orin 32G/64G | 4.1.2.0_NVMe | 5.15.148-tegra | 1. Supported AGX Orin flash to NVMe. | ATC3750-6C<br>ATC3750-A6CR<br>ATC3750-6C-64<br>ATC3750-A6CR-64<br>ATC3750-6CE-64<br>ATC3750-A6CRE-64 |
 | 2024-12-30 | 5.1.1 | AGX Orin 32G/64G | 2.2.0_NVMe | 5.10.104-tegra | 1. Supported AGX Orin flash to NVMe. |  |
 | 2024-11-25 | 5.1.1 | AGX Orin 32G/64G | 2.2.0 | 5.10.104-tegra | 1. Added MUT 2.2.38. <br>2. Fixed otg(host) can't detect device at first time. <br>3. Set Ubuntu 'Power Saving -> Blank Screen' option to 'Never' as default. <br>4. Disable ubuntu 'logout-prompt' to fixed ignition off can't power-off issue. <br>5. NVIDIA PCN_210100 patch. |  |
 | 2024-11-22 | 6.1 | AGX Orin 32G/64G | 4.1.2.0 | 5.15.148-tegra | 1. Add MUT 2.2.38 <br> 2. Fixed UEFI  [FvbNorFlashStandaloneMm] error. <br> 3. Support ATC3750-6C 32G/64G series.| |
@@ -100,11 +100,11 @@
 
 ## **ATC3750-IP7-8M series**
 
-| Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | Other |
+| Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | BOM |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | 2026-02-26 | 5.1.1 | AGX Orin 32G/64G | 2.3.0 | 5.10.104-tegra | 1. NVIDIA PCN_211461_211462 patch. <br>2. Updated MUT SDK to v2.2.57. <br>3. Set default camera to e-con Systems STURDeCAM31. <br>4. Disabled USB Link Power Management. <br>5. Jetson Orin Field Bulletin – Critical QSPI Software Update. <br>6. Removed Nexcom boot logo. <br>7. Enabled PPS function(GPIO.30, PEE.02). <br>8. Fixed freeze issue during long-duration testing with STURDeCAM31. | |
 | 2025-10-09 | 6.1 | AGX Orin 32G/64G | 4.1.10.0 4.1.10.0_NVMe | 5.15.148-tegra | 1. Added support for the Sensing "ISX031C-GMSL2F" GMSL2 camera. <br>2. Update the StereoLabs GMSL2 driver. <br>3. Fixed an issue where the e-con Systems "STURDeCAM31" could not erase/write the SPI flash. <br>4. Applied NVIDIA’s official bug-fix patches. ***(https://elinux.org/Jetson/L4T/r36.4.x_patches)*** |  |
-| 2025-08-28 | 6.1 | AGX Orin 32G/64G | 4.1.8.0 4.1.8.0_NVMe | 5.15.148-tegra | 1. UEFI remove nexcom logo. <br> 2. Fixed RS232 communction failure at baud rates below 9600 bps. <br> 3. ATC3750-IP7-8M support Stereolabs ZED X gmsl2 camera. <br> 4. ApproPho AP-AR0234 supports frame synchronization between two MAX96712 devices using an external sync signal. | |
+| 2025-08-28 | 6.1 | AGX Orin 32G/64G | 4.1.8.0 4.1.8.0_NVMe | 5.15.148-tegra | 1. UEFI remove nexcom logo. <br> 2. Fixed RS232 communction failure at baud rates below 9600 bps. <br> 3. ATC3750-IP7-8M support Stereolabs ZED X gmsl2 camera. <br> 4. ApproPho AP-AR0234 supports frame synchronization between two MAX96712 devices using an external sync signal. | ATC3750-IP7-8M<br>ATC3750-IP7-8M-64<br>ATC3750-IP7-WI8MR<br>ATC3750-IP7-WI8MR-64 |
 | 2025-08-22 | 6.1 | AGX Orin 32G/64G | 4.1.7.0 4.1.7.0_NVMe | 5.15.148-tegra | 1. UEFI remove nexcom logo. <br>2. Fixed RS232 communction failure at baud rates below 9600 bps. <br>3. Fix "STURDeCAM31" GMSL2 camera compatibility issue. <br>4. Added support for the "STURDeCAM25" GMSL2 camera. <br>5. Added support for the "StereoLabs" GMSL2 camera. |  |
 | 2025-07-25 | 6.1 | AGX Orin 32G/64G | 4.1.6.0 4.1.6.0_NVMe | 5.15.148-tegra | 1. Update MUT SDK to v2.2.57. <br> 2. Supported Leopard Imaging Hawk and Owl GMSL2 Camera. | |
 | 2025-06-20 | 6.1 | AGX Orin 32G/64G | 4.1.5.0 4.1.5.0_NVMe | 5.15.148-tegra | 1. Remove "rootOnNVMeOrSD" tool. <br> 2. Enable lsm6dsl in-tree driver. <br> 3. Supported ApproPho GMSL2 Camera.(AP-AR0234 / AP-IMX335 / AP-IMX415) <br> 4. Modified e-con Systems driver to supported SerDes x2 lane design. | |
