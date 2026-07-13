@@ -4,7 +4,7 @@
 
 # Recovery
 ### 1. The host PC is connected to the ATC35xx via an OTG cable.
-![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/Image_Release_Notes/Recover_step/ATC35xx/image/step1.png)
+![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/Image_Release_Notes/Recvoer_step/ATC35xx/image/step1.png)
 ### 2. Execute Putty in host system
 	Serial Line : /dev/ttyUSB0
 	Speed : 115200 -> Open
