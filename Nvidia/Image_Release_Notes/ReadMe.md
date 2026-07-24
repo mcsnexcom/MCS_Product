@@ -4,7 +4,7 @@
 
 | Date | Jetpack Version | SoM | Image Version | Kernel version | Release note | Default ship version | 
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- | 
-| 2026-04-09 | 6.2.2 | Orin Nano 4G/8G | 4.3.0.0 | 5.15.185-tegra | **1.** Support ATC3560, ATC3561, ATC3562, ATC3563.<br> **2.** Prevent nvargus-daemon crash when no camera dts. <br> **3.** Improve ksz9477s errata script. <br> **4.** Disable USB3 LPM, EEE, ASPM. | | 
+| 2026-04-09 | 6.2.2 | Orin Nano 4G/8G | 4.3.0.0 | 5.15.185-tegra | **1.** Support ATC3560, ATC3561, ATC3562, ATC3563.<br> **2.** Prevent nvargus-daemon crash when no camera dts. <br> **3.** Improve ksz9477s errata script. <br> **4.** Disable USB3 LPM, EEE, ASPM. 5. MCU version require:AT353R31.bin(ATC3560)/AT3561R01.bin(ATC3561)/AT35620R02.bin(ATC3562)/AT35630R01.bin(ATC3563) | | 
 | 2025-10-31 | 6.2 | Orin Nano 4G/8G | 4.2.5.0 | 5.15.148-tegra | **1.** Added support for the Sensing "ISX031C-GMSL2F" GMSL2 camera.<br> **2.** GPS LED reflects module connection status.<br> 3. Restored UEFI recovery boot, removed unbootable flag logic. <br>4. Added support for WMX7207 Wi-Fi module.<br> 5. Added support for LAN8870 module. <br>6. Updated MUT version to v2.2.65. <br>7. EYY0JNOR-2E00: Fix OTG bug ( No ttyACM0 on host). <br>8. ATC3563: Fix OTG bug ( No ttyACM0 while no USB-A device is connected). | ATC3520-IP7-4C-8 | 
 | 2025-09-19 | 6.2 | Orin Nano 4G/8G | 4.2.4.0 | 5.15.148-tegra | **1.** Remove NEXCOM from UEFI <br>2. Add power mode 25W | ATC3562-IP7-NA4M-8 <br> ATC3563-NA8C-8 <br> ATC3563-NAA8CR-8| 
 | 2025-09-12 | 6.2 | Orin Nano 4G/8G | 4.2.3.1 | 5.15.148-tegra | **1.** Adjust ATC3562 B ver. Pin define. <br> 2. Remove NEXCOM from UEFI. <br> 3. ATC3563 set COM2 to default. <br> 4. Change module name: ATC3520 -> ATC3560. | | 
