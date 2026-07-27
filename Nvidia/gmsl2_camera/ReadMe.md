@@ -8,7 +8,7 @@
 | Leopard Imaging | [LI-AR0234-OWL](https://leopardimaging.com/product/automotive-cameras/cameras-by-interface/adi-gmsl2-cameras/li-ar0234cs-gmsl2-owl/li-ar0234cs-gmsl2-owl/) <br> [LI-AR0234-HAWK](https://leopardimaging.com/product/automotive-cameras/cameras-by-interface/adi-gmsl2-cameras/li-ar0234cs-stereo-gmsl2/li-ar0234cs-stereo-gmsl2-30/) | v.4.1.6.0 |
 | Stereolabs | [ZED-X](https://www.stereolabs.com/en-tw/store/products/zed-x-stereo-camera) | v4.1.10.0 |
 | Sensing | [JSX031C-GMSL2F](https://www.sensing-world.com/en/h-pd-286.html) | v4.1.10.0|
-| ORBBEC | gemini-335lg | 4.3.1.2 |
+| ORBBEC | [gemini-335lg](https://store.orbbec.com/products/gemini-335le) | 4.3.1.2 |
 
 NOTED: The minimum supported version only allows for connection and use; some functions may be incomplete (e.g., synchronization, simultaneous operation of multiple cameras, etc.).
 
