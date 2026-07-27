@@ -4,10 +4,10 @@
 | Camera Vendor | GMSL2 Model Name | Minimum Supported Version |
 | :---- | :---- | :---- |
 | e-con System | [STURDeCAM21](https://www.e-consystems.com/camera-modules/ip67-ar0233-gmsl2-hdr-camera.asp) <br> [STUDeCAM25](https://www.e-consystems.com/camera-modules/gmsl2-ar0234-global-shutter-camera.asp) <br> [STURDeCAM31](https://www.e-consystems.com/camera-modules/sony-isx031-ip69k-gmsl2-hdr-camera.asp) | v4.1.4.0 |
-| ApproPho | AP-AR0234 <br> AP-IMX335 <br> AP-IMX415 | v4.1.5.0 |
-| Leopard Imaging | LI-AR0234-OWL <br> LI-AR0234-HAWK | v.4.1.6.0 |
-| Stereolabs | ZED-X | v4.1.10.0 |
-| Sensing | JSX031C-GMSL2F | v4.1.10.0|
+| ApproPho | [AP-AR0234](https://www.appropho.com/products_iii_en.html?pdid=151&type=36&cID=196) <br> [AP-IMX335](https://www.appropho.com/products_iii_en.html?pdid=150&type=36&cID=196) <br> [AP-IMX415](https://www.appropho.com/products_iii_en.html?pdid=149&type=36&cID=196) | v4.1.5.0 |
+| Leopard Imaging | [LI-AR0234-OWL](https://leopardimaging.com/product/automotive-cameras/cameras-by-interface/adi-gmsl2-cameras/li-ar0234cs-gmsl2-owl/li-ar0234cs-gmsl2-owl/) <br> [LI-AR0234-HAWK](https://leopardimaging.com/product/automotive-cameras/cameras-by-interface/adi-gmsl2-cameras/li-ar0234cs-stereo-gmsl2/li-ar0234cs-stereo-gmsl2-30/) | v.4.1.6.0 |
+| Stereolabs | [ZED-X](https://www.stereolabs.com/en-tw/store/products/zed-x-stereo-camera) | v4.1.10.0 |
+| Sensing | [JSX031C-GMSL2F](https://www.sensing-world.com/en/h-pd-286.html) | v4.1.10.0|
 | ORBBEC | gemini-335lg | 4.3.1.2 |
 
 NOTED: The minimum supported version only allows for connection and use; some functions may be incomplete (e.g., synchronization, simultaneous operation of multiple cameras, etc.).
