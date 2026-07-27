@@ -2,6 +2,7 @@
 
 gmsl2 camera supported list:
 | Camera Vendor | GMSL2 Model Name | Minimum Supported Version |
+| :---- | :---- | :---- |
 | e-con System | STURDeCAM21 <br> STUDeCAM25 <br> STURDeCAM31 | v4.1.4.0 |
 | ApproPho | AP-AR0234 <br> AP-IMX335 <br> AP-IMX415 | v4.1.5.0 |
 | Leopard Imaging | LI-AR0234-OWL <br> LI-AR0234-HAWK | v.4.1.6.0 |
