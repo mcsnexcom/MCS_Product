@@ -1,5 +1,17 @@
 # `Please unzip the Driver after downloading`
 
+gmsl2 camera supported list:
+| Camera Vendor | GMSL2 Model Name | Minimum Supported Version |
+| e-con System | STURDeCAM21 <br> STUDeCAM25 <br> STURDeCAM31 | v4.1.4.0 |
+| ApproPho | AP-AR0234 <br> AP-IMX335 <br> AP-IMX415 | v4.1.5.0 |
+| Leopard Imaging | LI-AR0234-OWL <br> LI-AR0234-HAWK | v.4.1.6.0 |
+| Stereolabs | ZED-X | v4.1.10.0 |
+| Sensing | JSX031C-GMSL2F | v4.1.10.0|
+| ORBBEC | gemini-335lg | 4.3.1.2 |
+
+NOTED: The minimum supported version only allows for connection and use; some functions may be incomplete (e.g., synchronization, simultaneous operation of multiple cameras, etc.).
+
+
 ## **gmsl2_stream.sh**
 This script is a diagnostic tool designed to view live video streams from currently connected and configured GMSL2 cameras. It uses the GStreamer multimedia framework to display the feed.
 
@@ -25,3 +37,5 @@ This script is also for installing and configuring camera drivers, but it's spec
   - Command-Line Menu: It provides a simple text-based menu in the terminal (without using dialog) for the user to select from a list of compatible cameras.
   - Installs Drivers: Like the previous script, it also copies the necessary kernel driver files into the system and updates the module dependencies.
   - Requires Shutdown: It warns the user that a system shutdown is required to apply the changes and prompts for confirmation.
+
+
