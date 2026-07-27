@@ -3,7 +3,7 @@
 ## GMSL2 camera supported list:
 | Camera Vendor | GMSL2 Model Name | Minimum Supported Version |
 | :---- | :---- | :---- |
-| e-con System | STURDeCAM21 <br> STUDeCAM25 <br> STURDeCAM31 | v4.1.4.0 |
+| e-con System | [STURDeCAM21](https://www.e-consystems.com/camera-modules/ip67-ar0233-gmsl2-hdr-camera.asp) <br> [STUDeCAM25](https://www.e-consystems.com/camera-modules/gmsl2-ar0234-global-shutter-camera.asp) <br> [STURDeCAM31](https://www.e-consystems.com/camera-modules/sony-isx031-ip69k-gmsl2-hdr-camera.asp) | v4.1.4.0 |
 | ApproPho | AP-AR0234 <br> AP-IMX335 <br> AP-IMX415 | v4.1.5.0 |
 | Leopard Imaging | LI-AR0234-OWL <br> LI-AR0234-HAWK | v.4.1.6.0 |
 | Stereolabs | ZED-X | v4.1.10.0 |
