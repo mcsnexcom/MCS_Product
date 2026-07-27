@@ -1,6 +1,6 @@
 # `Please unzip the Driver after downloading`
 
-gmsl2 camera supported list:
+## GMSL2 camera supported list:
 | Camera Vendor | GMSL2 Model Name | Minimum Supported Version |
 | :---- | :---- | :---- |
 | e-con System | STURDeCAM21 <br> STUDeCAM25 <br> STURDeCAM31 | v4.1.4.0 |
