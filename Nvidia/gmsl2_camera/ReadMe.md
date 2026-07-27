@@ -10,8 +10,7 @@
 | Sensing | [JSX031C-GMSL2F](https://www.sensing-world.com/en/h-pd-286.html) | v4.1.10.0|
 | ORBBEC | [gemini-335lg](https://store.orbbec.com/products/gemini-335le) | 4.3.1.2 |
 
-NOTED: The minimum supported version only allows for connection and use; some functions may be incomplete (e.g., synchronization, simultaneous operation of multiple cameras, etc.).
-
+NOTED: The minimum supported version only allows for connection and use; some functions may be incomplete (e.g., synchronization, simultaneous operation of multiple cameras, etc.). <br> We recommend using the latest image version.
 
 ## **gmsl2_stream.sh**
 This script is a diagnostic tool designed to view live video streams from currently connected and configured GMSL2 cameras. It uses the GStreamer multimedia framework to display the feed.
