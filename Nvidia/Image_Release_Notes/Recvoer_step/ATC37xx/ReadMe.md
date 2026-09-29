@@ -17,15 +17,15 @@
 ### 5. Go back to image folder and decompress image file:
 	$ tar xvf ATC37xx_mfi_"version".tar.gz
 	Noted. The commands need to modified according different file names.
-![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/Image_Release_Notes/Recvoer_step/ATC37xx/image/step4.png)
+![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/Image_Release_Notes/Recvoer_step/ATC37xx/image/step5.png)
 ### 6. Excute recover commands
 	$ sudo ./tools/kernel_flash/L4t_initrd_flash.sh --flash-only --massflash 1
-![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/Image_Release_Notes/Recover_step/ATC37xx/image/step6.png)
+![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/Image_Release_Notes/Recvoer_step/ATC37xx/image/step6.png)
 ### 7. When recover process finished, it will shows "Success"
-![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/Image_Release_Notes/Recover_step/ATC37xx/image/step7.png)
+![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/Image_Release_Notes/Recvoer_step/ATC37xx/image/step7.png)
 ### 8. Reboot ATC37xx device, it will start to configure the system.
 
-![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/Image_Release_Notes/Recover_step/ATC37xx/image/step8.png)
+![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/Image_Release_Notes/Recvoer_step/ATC37xx/image/step8.png)
 # Recovery (Image v4.1.11.0 or newer)
 
 ### Before performing the above steps, update ATC37xx's MCU to version R15 or later.
