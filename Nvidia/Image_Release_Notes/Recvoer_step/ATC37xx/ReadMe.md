@@ -13,11 +13,11 @@
 ![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/Image_Release_Notes/Recvoer_step/ATC37xx/image/step3.png)
 ### 4. Entry command in ATC37xx device and password then ATC system into recovery mode.
 	$ sudo reboot --force forced-recovery
-![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/Image_Release_Notes/Recover_step/ATC37xx/image/step4.png)
+![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/Image_Release_Notes/Recvoer_step/ATC37xx/image/step4.png)
 ### 5. Go back to image folder and decompress image file:
 	$ tar xvf ATC37xx_mfi_"version".tar.gz
 	Noted. The commands need to modified according different file names.
-![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/Image_Release_Notes/Recover_step/ATC37xx/image/step5.png)
+![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/Image_Release_Notes/Recvoer_step/ATC37xx/image/step4.png)
 ### 6. Excute recover commands
 	$ sudo ./tools/kernel_flash/L4t_initrd_flash.sh --flash-only --massflash 1
 ![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/Image_Release_Notes/Recover_step/ATC37xx/image/step6.png)
