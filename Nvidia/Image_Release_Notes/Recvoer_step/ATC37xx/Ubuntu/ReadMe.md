@@ -18,7 +18,7 @@
 	$ tar xvf ATC37xx_mfi_"version".tar.gz
 	Noted. The commands need to modified according different file names.
 ![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/Image_Release_Notes/Recvoer_step/ATC37xx/image/step5.png)
-### 6. Excute recover commands
+### 6. Excute recover commands (Choose the image storage location)
 ### 6.1 To eMMC:
 	$ sudo ./tools/kernel_flash/l4t_initrd_flash.sh --flash-only --massflash 1
 ### 6.2 To NVMe:
