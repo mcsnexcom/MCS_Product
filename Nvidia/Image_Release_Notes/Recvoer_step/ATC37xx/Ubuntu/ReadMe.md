@@ -19,7 +19,10 @@
 	Noted. The commands need to modified according different file names.
 ![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/Image_Release_Notes/Recvoer_step/ATC37xx/image/step5.png)
 ### 6. Excute recover commands
+### 6.1 To eMMC:
 	$ sudo ./tools/kernel_flash/l4t_initrd_flash.sh --flash-only --massflash 1
+### 6.2 To NVMe:
+	$ sudo ./nvme.sh 1
 ![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/Image_Release_Notes/Recvoer_step/ATC37xx/image/step6.png)
 ### 7. When recover process finished, it will shows "Success"
 ![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/Image_Release_Notes/Recvoer_step/ATC37xx/image/step7.png)
