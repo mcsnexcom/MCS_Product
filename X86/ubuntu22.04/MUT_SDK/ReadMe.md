@@ -1,4 +1,7 @@
-# MUT_SDK Tool Usage Steps Tutorial
+# Execute using the example MUT_SDK
+
+## You can also find these file in /nexcom/MUT
+
 ### Use root mode and enter service folder
   - sudo -s
   - cd service
@@ -7,22 +10,23 @@
 ### Execute MUT_SDK
   - ./bin/mcu_menu_ap
 
-![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/MUT_IO_SDK/v2.2.58/MUT_SDK/Sample%20media/MUT_SDK_main-page.png)
+![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/MUT_IO_SDK/image/MUT_SDK_main-page.png)
 
 ##Example:
 Enter letters or numbers to select the corresponding option.
 
 - "00" Enter MCU Demo AP<br>
 
-![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/MUT_IO_SDK/v2.2.58/MUT_SDK/Sample%20media/system_or_poe.png)
+![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/MUT_IO_SDK/image/system_or_poe.png)
 
 - "00" Enter system option page<br>
 
-![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/MUT_IO_SDK/v2.2.58/MUT_SDK/Sample%20media/system_main-page.png)
+![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/MUT_IO_SDK/image/system_main_page.png)
 
 - "00" Enter system get page<br>
 
-![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/MUT_IO_SDK/v2.2.58/MUT_SDK/Sample%20media/system%20page.png)
+![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/MUT_IO_SDK/image/system_page.png)
+
 
 # Flash MCU firmware steps:
 ### Use root mode and compilation environment
@@ -37,8 +41,9 @@ Enter letters or numbers to select the corresponding option.
   - Change the file path to the corrected MCU file name, and then save and exit
 > Like this
 
-![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/MUT_IO_SDK/v2.2.58/MUT_SDK/Sample%20media/MCU%20file.png)
+![image](https://github.com/mcsnexcom/MCS_Product/blob/main/Nvidia/MUT_IO_SDK/image/MCU_file.png)
 
 ### execute flash
   - cd ..
   - ./bin/mcu_upd
+
